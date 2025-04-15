@@ -59,16 +59,14 @@ export default class QuizPractice {
     readonly progress: progressType;
     readonly checks: checkType;
     readonly originalHTML = document.getElementById("article_practice")!.innerHTML;
-    readonly articles: HTMLCollectionOf<HTMLDivElement>;
     readonly counters: counterType;
     readonly storage: storageType;
 
-    constructor(questions: question[], articles: HTMLCollectionOf<HTMLDivElement>) {
+    constructor(questions: question[]) {
         // very first init things
         this.buildQuestionsHTMLStructure();
         this.questions = questions;
         this.totalAmountOfQuestions = questions.length;
-        this.articles = articles;
 
         this.storage = {
             shuffledIndices: sessionStorage.getItem("shuffledIndices"),

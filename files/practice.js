@@ -3,13 +3,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const array_functions_js_1 = require("./array_functions.js");
 class QuizPractice {
-    constructor(questions, articles) {
+    constructor(questions) {
         this.originalHTML = document.getElementById("article_practice").innerHTML;
         // very first init things
         this.buildQuestionsHTMLStructure();
         this.questions = questions;
         this.totalAmountOfQuestions = questions.length;
-        this.articles = articles;
         this.storage = {
             shuffledIndices: sessionStorage.getItem("shuffledIndices"),
             countersQuestions: sessionStorage.getItem("countersQuestions"),
@@ -211,7 +210,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const current_questions_js_1 = __importDefault(require("./current_questions.js"));
 const QuizPractice_js_1 = __importDefault(require("./QuizPractice.js"));
-const practice = new QuizPractice_js_1.default(current_questions_js_1.default, articles);
+const practice = new QuizPractice_js_1.default(current_questions_js_1.default);
 
 },{"./QuizPractice.js":1,"./current_questions.js":3}],5:[function(require,module,exports){
 module.exports={
