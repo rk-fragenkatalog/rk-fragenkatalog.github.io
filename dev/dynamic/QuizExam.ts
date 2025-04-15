@@ -131,6 +131,11 @@ export default class QuizExam {
         const achievedPoints: number = booleanArray.reduce((a, b) => a + b, 0)
         // https://stackoverflow.com/questions/1230233/how-to-find-the-sum-of-an-array-of-numbers
 
-        this.sections.evaluation.innerHTML = `<p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>`;
+        this.sections.evaluation.innerHTML = `
+            <p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>
+            <p><b>Info:</b> Kästchen, deren Zustand nicht mit der Lösung übereinstimmen, sind rot
+            markiert (rotes Kästchen ohne Kreuz: hätte angekreuzt werden müssen, rotes Kästchen mit
+            Kreuz: hätte nicht angekreuzt werden dürfen).</p>
+        `;
     }
 }
