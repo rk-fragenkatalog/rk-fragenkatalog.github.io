@@ -8,4 +8,4 @@ files/bundle.js: $(TYPSCRIPT_FILES:.ts=.js)
 	browserify dev/dynamic/main.js -o $@
 
 %.js: %.ts
-	tsc --resolveJsonModule
+	tsc
