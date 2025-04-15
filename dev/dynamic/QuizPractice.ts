@@ -1,7 +1,6 @@
 // imports
 import { question } from "./types.js";
 import { shuffleArray, compareArrays } from "./array_functions.js";
-import { QUESTION_COUNT } from "./questions2024.json";
 
 // custom types for this class
 type divType = {
@@ -15,7 +14,6 @@ type buttonType = {
     back: HTMLButtonElement;
     submit: HTMLButtonElement;
     next: HTMLButtonElement;
-    resultsBack: HTMLButtonElement;
 };
 
 type progressType = {
@@ -50,11 +48,10 @@ type storageType = {
 
 
 export default class QuizPractice {
-
     // readonly properties can only be set in constructor
     // declare questions array
     readonly questions: question[];
-    readonly totalAmountOfQuestions = QUESTION_COUNT;
+    readonly totalAmountOfQuestions: number;
     readonly shuffledIndices: number[];
     readonly sections: sectionType;
     readonly divs: divType;
@@ -66,11 +63,11 @@ export default class QuizPractice {
     readonly counters: counterType;
     readonly storage: storageType;
 
-
     constructor(questions: question[], articles: HTMLCollectionOf<HTMLDivElement>) {
         // very first init things
-        this.init();
+        this.buildQuestionsHTMLStructure();
         this.questions = questions;
+        this.totalAmountOfQuestions = questions.length;
         this.articles = articles;
 
         this.storage = {
@@ -107,7 +104,6 @@ export default class QuizPractice {
             back: document.getElementById("practice_back")! as HTMLButtonElement,
             submit: document.getElementById("practice_submit")! as HTMLButtonElement,
             next: document.getElementById("practice_next")! as HTMLButtonElement,
-            resultsBack: document.getElementById("practice_results_back")! as HTMLButtonElement,
         };
 
         this.checks = {
@@ -116,7 +112,7 @@ export default class QuizPractice {
         };
 
         // init checkboxes and their labels
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 4; ++i) {
             this.checks.boxes[i] = document.getElementById(`practice_A${i}`)! as HTMLInputElement;
             this.checks.labels[i] = document.getElementById(`practice_A${i}_label`)! as HTMLLabelElement;
         }
@@ -127,21 +123,19 @@ export default class QuizPractice {
             label: document.getElementById("practice_progress_label")! as HTMLLabelElement,
         };
 
-
         // event listeners for buttons
         this.buttons.next.addEventListener("click", () => this.buildQuestion());
         this.buttons.submit.addEventListener("click", () => this.evaluateAnswer());
-        this.buttons.back.addEventListener("click", () => this.backToStart());
 
         // display first question
         this.buildQuestion();
         this.updateProgress();
     }
 
-    init(): void {
+    buildQuestionsHTMLStructure(): void {
         const outputArray: string[] = [];
 
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 4; ++i) {
             outputArray.push(`
                 <input type="checkbox" id="practice_A${i}">
                 <label for="practice_A${i}" id="practice_A${i}_label"></label><br />
@@ -160,7 +154,7 @@ export default class QuizPractice {
             const currentAnswers = shuffleArray(currentQuestion.a);
 
             // update checkbox labels
-            for (let i = 0; i < 4; i++) {
+            for (let i = 0; i < 4; ++i) {
                 this.checks.labels[i].textContent = currentAnswers[i].aT;
                 this.checks.boxes[i].name = currentAnswers[i].aNo.toString();
                 // textContent vs. innerText
@@ -178,7 +172,7 @@ export default class QuizPractice {
         const outputArray: string[] = [];
         let correct: boolean;
 
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 4; ++i) {
             if (this.checks.boxes[i].checked) {
                 checked.push(parseFloat(this.checks.boxes[i].name));
             }
@@ -235,7 +229,7 @@ export default class QuizPractice {
 
         // enable checkboxes
         // remove checks
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 4; ++i) {
             this.checks.boxes[i].disabled = false;
             this.checks.boxes[i].checked = false;
         }
@@ -255,24 +249,6 @@ export default class QuizPractice {
         this.sections.buttonBlock.hidden = true;
         this.divs.evaluation.hidden = true;
         this.divs.results.hidden = false;
-        this.buttons.resultsBack.hidden = false;
-        this.buttons.resultsBack.addEventListener("click", () => this.backToStart(false))
         sessionStorage.clear()
-    }
-
-    backToStart(save: boolean = true): void {
-        const start = this.articles.namedItem("article_start")! as HTMLDivElement;
-        const practice = this.articles.namedItem("article_practice")! as HTMLDivElement;
-
-        start.hidden = false;
-        practice.hidden = true;
-        practice.innerHTML = this.originalHTML;
-
-        if (save) {
-            sessionStorage.setItem("shuffledIndices", JSON.stringify(this.shuffledIndices));
-            sessionStorage.setItem("countersQuestions", this.counters.questions.toString());
-            sessionStorage.setItem("countersCorrect", this.counters.correct.toString());
-            sessionStorage.setItem("countersIncorrect", this.counters.incorrect.toString());
-        }
     }
 }
