@@ -1,11 +1,21 @@
 TYPSCRIPT_FILES := $(wildcard dev/dynamic/*.ts)
 
-.PHONY: all
+.PHONY: all compile clean
 
-all: files/bundle.js
+all: compile files/index.js files/practice.js files/exam.js
 
-files/bundle.js: $(TYPSCRIPT_FILES:.ts=.js)
-	browserify dev/dynamic/main.js -o $@
-
-%.js: %.ts
+compile:
 	tsc
+
+files/index.js: dev/dynamic/index.js
+	cp $< $@
+
+files/practice.js: dev/dynamic/practice.js
+	browserify $< -o $@
+
+files/exam.js: dev/dynamic/exam.js
+	browserify $< -o $@
+
+clean:
+	rm -f dev/dynamic/*.js
+	rm -f files/*.js
