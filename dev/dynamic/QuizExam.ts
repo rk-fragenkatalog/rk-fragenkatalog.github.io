@@ -25,9 +25,8 @@ export default class QuizExam {
     readonly sections: sectionType;
     readonly buttons: buttonType;
     readonly originalHTML: string;
-    readonly articles: HTMLCollectionOf<HTMLDivElement>;
 
-    constructor(questions: question[], articles: HTMLCollectionOf<HTMLDivElement>) {
+    constructor(questions: question[]) {
         // very first init things
         this.sections = {
             examAllQuestions: document.getElementById("exam_all_questions")! as HTMLDivElement,
@@ -36,7 +35,6 @@ export default class QuizExam {
         this.originalHTML = this.sections.examAllQuestions.innerHTML;
         this.buildQuestionsHTMLStructure();
         this.shuffled_questions = shuffleArray(questions).slice(0, this.amountOfQuestionsDisplayed);
-        this.articles = articles;
 
         // init buttons
         this.buttons = {

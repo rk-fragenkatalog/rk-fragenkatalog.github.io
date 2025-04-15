@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const array_functions_js_1 = require("./array_functions.js");
 class QuizExam {
-    constructor(questions, articles) {
+    constructor(questions) {
         // properties
         // https://stackoverflow.com/questions/12686927/how-to-assert-a-type-of-an-htmlelement-in-typescript
         this.checkboxes = [];
@@ -19,7 +19,6 @@ class QuizExam {
         this.originalHTML = this.sections.examAllQuestions.innerHTML;
         this.buildQuestionsHTMLStructure();
         this.shuffled_questions = (0, array_functions_js_1.shuffleArray)(questions).slice(0, this.amountOfQuestionsDisplayed);
-        this.articles = articles;
         // init buttons
         this.buttons = {
             submit: document.getElementById("exam_submit"),
@@ -146,7 +145,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const current_questions_js_1 = __importDefault(require("./current_questions.js"));
 const QuizExam_js_1 = __importDefault(require("./QuizExam.js"));
-const exam = new QuizExam_js_1.default(current_questions_js_1.default, articles);
+const exam = new QuizExam_js_1.default(current_questions_js_1.default);
 
 },{"./QuizExam.js":1,"./current_questions.js":3}],5:[function(require,module,exports){
 module.exports={
