@@ -1,5 +1,3 @@
-TYPSCRIPT_FILES := $(wildcard dev/dynamic/*.ts)
-
 .PHONY: all compile clean
 
 all: compile files/index.js files/practice.js files/exam.js
