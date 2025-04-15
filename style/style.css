@@ -1,0 +1,200 @@
+/* CSS rule format: */
+/* selector { property: value; } */
+
+body {
+    background-color: #B70E0C;
+    font-family: 'Conv_Dunant-Regular';
+    font-size: large;
+    hyphens: auto;
+    /* Silbentrennung */
+}
+
+/* hide flex containers */
+[hidden] {
+    display: none !important;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+/* https://www.w3schools.com/css/css_boxmodel.asp */
+article {
+    background-color: white;
+    border-radius: 2vw;
+    padding: 7vw;
+    margin: 7vw;
+    /* only for flex containers: */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#article_start {
+    text-align: center;
+}
+
+#article_password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    margin-top: 0.5em;
+    margin-right: 0.2em;
+    padding: 0.1em;
+}
+
+button {
+    border-radius: 3px;
+    border: 0.5pt solid black;
+    margin-top: 0.5em;
+    padding: 0.2em;
+}
+
+.button_link {
+    color: black;
+    text-decoration: none;
+}
+
+.button_block,
+.progress_label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.start_button {
+    padding: 0.5em;
+    width: 120px;
+}
+
+.correct {
+    color: #039603;
+}
+
+.incorrect {
+    color: #B70E0C;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    margin-top: 0.2em;
+}
+
+input[type="checkbox"]~label {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 0.3em;
+    margin-bottom: 1em;
+}
+
+/* https://stackoverflow.com/questions/2570972/css-font-border */
+.incorrect_label {
+    color: #B70E0C;
+    font-weight: bold;
+    /* background-color: #B70E0C;
+    color: white;
+    border-radius: 4px; */
+}
+
+#practice_progress_label {
+    display: inline-block;
+    margin-top: 0.3em;
+}
+
+/* progress bar */
+/* https://www.geeksforgeeks.org/how-to-set-color-of-progress-bar-using-html-and-css/ */
+progress {
+    width: 260px;
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+    background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+    background-color: #039603 !important;
+}
+
+/* For Firefox */
+progress {
+    background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+    background-color: #039603 !important;
+}
+
+/* For IE10 */
+progress {
+    background-color: #eee;
+}
+
+progress[value] {
+    background-color: #039603;
+}
+
+.article_specialtopic {
+    background-color: white;
+    border-radius: 2vw;
+    padding: 2vw;
+    margin: 1vw;
+}
+
+#pdf {
+    width: 100%;
+    height: 87vh;
+}
+
+li {
+    padding: 0.4%;
+}
+
+span {
+    color: #B70E0C;
+}
+
+#guide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+}
+
+.grid_loner {
+    grid-column: 2/3;
+
+}
+
+.grid_party {
+    grid-row: 2;
+}
+
+.grid_loner,
+.grid_party {
+
+    background-color: #B70E0C;
+    color: white;
+    text-align: center;
+    width: 7vw;
+    height: 5vw;
+    border-radius: 5%;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+#grid_rockbottom {
+    margin-bottom: 0vw;
+}
+
+h2 {
+    color: #B70E0C;
+}
+
+.link_task {
+    color: black;
+}

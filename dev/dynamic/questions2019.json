@@ -1,0 +1,3068 @@
+{
+    "QUESTION_COUNT": 122,
+    "questions": [
+        {
+            "q": "Welche Angaben sind beim Notruf sinnvoll?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Hausnummer"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Ort und genaue Adresse"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kilometerangaben auf Autobahnen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Body-Mass-Index"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Warum muss der Sturzhelm abgenommen werden, wenn der Verletzte nicht reagiert?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Aus versicherungstechnischen Gründen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Gefahr des Erstickens"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Um die Atmung zu ermöglichen bzw. zu erleichtern"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Zur Durchführung des Notfallchecks"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Maßnahmen ergreifen Sie, wenn ein Verletzter am Bauch liegt und nicht reagiert?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Sofort stabile Seitenlage durchführen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Notruf"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Laut ansprechen und sanft schütteln"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Den Verletzten umdrehen"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Haltung muss der Helfer bei der psychischen Betreuung haben?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Einfach sprechen, keine medizinischen Fremdwörter verwenden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Die Gefühle des Patienten müssen akzeptiert werden"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Zusagen und Versprechen sollen eingehalten werden"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Mit Psychotricks arbeiten, um den Patienten zu beruhigen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche lebensrettenden Sofortmaßnahmen gibt es?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Retten von Verletzten"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Blutstillung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Stabile Seitenlage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wiederbelebung"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Wie wird das Bewusstsein überprüft?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notfallpatient sanft massieren, bis der Notarzt eintrifft"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Durch lautes Ansprechen und sanftes Schütteln an den Schultern"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Pupillenreflexe des Patienten mit einer Taschenlampe überprüfen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Schmerzreiz an beiden Ohren durchführen"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welchen Grundsatz soll jeder Ersthelfer in einer Gefahrenzone beachten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Es gibt nie ein Gefahrenpotenzial bei der Leistung von Erster Hilfe!"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Selbstschutz geht vor Fremdschutz!"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Fremdschutz geht vor Eigenschutz!"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Dem Mutigen gehort die Welt!"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Wie lautet die Telefonnummer der Vergiftungsinformationszentrale (VIZ)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "01/43 43 43"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "01/144"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "01/0800 133 133"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "01/406 43 43"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Wie lautet die Notrufnummer der Rettung?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "122"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "133"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "144"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "112"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Wie lautet die Notrufnummer der Polizei?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "122"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "133"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "144"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "112"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Lagerung wird bei einer Kopfverletzung (Erste Hilfe) durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Stabile Seitenlage"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Beine-Hochlagerung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Oberkörper-Hochlagerung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Keine spezielle Lagerung erforderlich"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Wie wird die stabile Seitenlage korrekt durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Arm zur Seite legen, gegenüberliegendes Knie hochziehen, Handgelenk aufs Knie legen und zu sich drehen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Arm nach oben legen, gegenüberliegendes Knie hochziehen und herdrehen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Arm zur Seite legen, gegenüberliegendes Knie hochziehen, Ellbogen aufs Knie und herdrehen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Beide Arme zur Seite legen, gegenüberliegendes Knie hochziehen und herdrehen"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Etwa wie viel Prozent der Unfälle passieren insgesamt im Bereich zu Hause/Freizeit/Sport?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "10"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "50"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "75"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "95"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Was machen Sie, wenn ein verletzter Motorradfahrer auf dem Bauch liegt und nicht reagiert?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Umdrehen und Helm abnehmen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Umdrehen und Helm oben lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Helm in Bauchlage abnehmen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Stabile Seitenlage mit Helm"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Was sind die Glieder der Rettungskette?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notruf"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Vergiftungsinformationszentrale"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Erste Hilfe leisten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Warnweste anziehen"
+                }
+            ],
+            "c": [
+                1,
+                3
+            ]
+        },
+        {
+            "q": "Welche Lagerung wird bei Bauchverletzungen (Erste Hilfe) durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Lagerung mit erhöhtem Oberkörper"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Flache Rückenlagerung mit angezogenen Beinen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Beine-Hochlagerung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Deckenrolle unter den Knien"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Wie soll der Ersthelfer weiter vorgehen, wenn beim Notfallcheck festgestellt wird, dass der Erkrankte keine normale Atmung hat?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Stabile Seitenlage durchführen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wiederbelebung beginnen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Erkrankten liegen lassen und auf Rettungsdienst warten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Erkrankten 2-mal beatmen"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Ausrüstung kann den Helfer vor Infektionen schützen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Beatmungstuch"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Einmalhandschuhe"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Taschentuch"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Alarmblinkanlage"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Wann bzw. wozu schalten Sie die Alarmblinkanlage ein?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Vor dem Anlegen der Warnweste"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Nach dem Anlegen der Warnweste"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wenn Gefahr vom eigenen Fahrzeug ausgeht"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wenn Sie vor Gefahren warnen wollen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Lagerung wird bei einem bewusstlosen Menschen durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Oberkörper-Hochlagerung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Lagerung ohne Veränderung der Körperhaltung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Deckenrolle unter dem Knie"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Stabile Seitenlage"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Womit kann ein Verkehrsunfall abgesichert werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Pannendreieck"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Ampel"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Alarmblinkanlage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Sonderzeichen"
+                }
+            ],
+            "c": [
+                1,
+                3
+            ]
+        },
+        {
+            "q": "Welche Informationen benötigt die Leitstelle beim Absetzen eines Notrufes?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Wo ist der Notfallort?"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Was ist geschehen?"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wer ruft an?"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wie viele Menschen sind betroffen?"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Wie verhalten Sie sich bei einem Verkehrsunfall?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "In ausreichendem Abstand absichern"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Falls möglich Rettung aus der Gefahrenzone"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Selbstschutz beachten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Fremdschutz geht vor Selbstschutz"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Wie lautet die Notrufnummer der Feuerwehr?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "122"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "133"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "144"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "112"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche Maßnahmen gehören zu den Basismaßnahmen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Gut zureden, beruhigen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Zur Aktivierung des Kreislaufs aufstehen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Angenehme Lagerung einnehmen (z. B. erhöhter Oberkörper bei Atemnot)"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Beengende Kleidungsstücke öffnen, für frische Luft sorgen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Lagerung wird bei Atemnot durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Bauchlage"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Oberkörper-Hochlagerung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Keine besondere Lagerung erforderlich"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Beine-Hochlagerung"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Schritte gehören zum Rautekgriff beim Retten aus einem PKW?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Oberkörper stützen, Gurt entfernen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schlüssel abziehen und Lenksäule verstellen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Verletzten auf den eigenen Oberschenkel ziehen bzw. setzen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verletzen vorbeugen, unter beiden Armen durchgreifen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Techniken der Helmabnahme werden in der Ersten Hilfe empfohlen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Helmabnahme durch einen Helfer"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Helmabnahme durch zwei Helfer"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Helmabnahme durch drei Helfer"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Helmabnahme durch vier Helfer"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche Schritte sind durchzuführen, wenn der Verletzte auf lautes Ansprechen und sanftes Schütteln nicht reagiert?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Hilferuf, Atmung kontrollieren, Atemwege freimachen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Stabile Seitenlage durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Vor dem Eintreffen des Rettungsdienstes sind keine weiteren Maßnahmen erforderlich"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Hilferuf, Atemwege freimachen, Atmung kontrollieren"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Wie lautet der Euro-Notruf?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "122"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "133"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "144"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "112"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Die GAMS-Regel erläutert dem Ersthelfer richtiges Verhalten bei Gefahr. „G“ steht für Gefahr erkennen, „A“ für Abstand halten, „S“ steht für Spezialkräfte anfordern und „M“ für?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Menschenrettung durchführen (falls gefahrlos möglich)"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Medizinisches Personal herbeiziehen (Rettungsdienst)"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Material überprüfen (Verbandskasten)"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Mund öffnen (stabile Seitenlage)"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche Rettungsmöglichkeiten aus einer Gefahrenzone gibt es in der Ersten Hilfe?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Rautekgriff"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wegziehen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Ast-Trage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Tragegurt"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Welche Basismaßnahmen soll der Ersthelfer durchführen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Entsprechende Lagerung durchführen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Für frische Luft sorgen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wärme erhalten - bei Kältegefühl zudecken"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Psychisch betreuen, für Ruhe sorgen und gut zureden"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Aufgaben hat der Ersthelfer?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Blutungen stillen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Basismaßnahmen durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "e-Card und Ausweis kontrollieren"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Retten von Verletzten aus allen Gefahrensituationen"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Worauf sollte der Ersthelfer bei einem Verkehrsunfall achten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Warnweste tragen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Gefahrenbereich nur zur Rettung betreten"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Selbstschutz beachten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Alarmblinkanlage einschalten"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Bei welchen Notfällen wird eine Lagerung mit erhöhtem Oberkörper empfohlen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Atemnot"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Herzbeschwerden"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Blutungen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Kollaps"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Wann muss ein Pannendreieck auf Freilandstraßen aufgestellt werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Bei Nebel muss kein Pannendreieck aufgestellt werden."
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wenn das Fahrzeug auf einer unübersichtlichen Straßenstelle zum Stillstand gekommen ist"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wenn das Fahrzeug bei schlechter Sicht zum Stillstand gekommen ist"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wenn das Fahrzeug bei Dämmerung oder Dunkelheit zum Stillstand gekommen ist"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Was soll man bei einem Notruf beachten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Den Anweisungen der Leitstelle folgen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Sich für den Notruf Zeit nehmen und auf die Fragen der Leitstelle antworten"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Notruf wählen, Notfallort nennen, sofort auflegen und Erste Hilfe leisten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notrufsäule darf nur bei einer Autopanne verwendet werden"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Wie gehen Sie bei der Wiederbelebung als trainierter Ersthelfer vor?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "3 Herzdruckmassagen / 1 Beatmung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "10 Herzdruckmassagen / 6 Beatmungen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "15 Herzdruckmassagen / 2 Beatmungen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "30 Herzdruckmassagen / 2 Beatmungen"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Wann spricht man von einem bewusstlosen Notfallpatienten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Patient reagiert nur auf Schmerzreize wie Zwicken in die Wangen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Notfallpatient ist verwirrt und kann sich an nichts erinnern"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Keine Reaktion auf lautes Ansprechen und sanftes Schütteln, hat normale Atmung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Bewusstseinslage kann durch den Ersthelfer nicht überprüft werden"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Was bedeutet die Abkürzung „AED“?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Automatische - Eingangs - Dosis"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Automatische - Erdgas - Dauerfunktion"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Automatisierte - Externe - Defibrillation"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Automatisierte - Extrem - Defibrillation"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Welche Aussagen treffen bei Ausfall des Bewusstseins zu?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "In Rückenlage besteht Lebensgefahr durch Ersticken"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Stabile Seitenlage ist die optimale Lagerung, falls normale Atmung feststellbar ist"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "In Rückenlage besteht keine Lebensgefahr"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Falls keine normale Atmung feststellbar, mit Wiederbelebung starten"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Was bedeutet „defibrillieren“?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Flimmern"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Früherkennen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Entflimmern"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Reanimieren"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Welche Maßnahmen führen Sie bei Bewusstlosigkeit durch?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Stabile Seitenlage zum Freihalten der Atemwege"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Auf dem Rücken liegend und mit überstrecktem Kopf lagern"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Flache Rückenlagerung und Beine hochlagern"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Erhöhter Oberkörper ist die optimale Lagerung"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Was soll ein Helfer bei der Defibrillation beachten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Elektroden fest auf den Brustkorb kleben"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Patienten während der Schockabgabe nicht berühren"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Nassen Brustkorb vorher abtrocknen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Patienten während der Schockabgabe berühren (Qualitätskontrolle)"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Handgriffe führen Sie vor einer Mund-zu-Mund-Beatmung durch?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Kinn hochziehen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Nase zuhalten"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Arm im rechten Winkel zur Seite legen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Krawatte öffnen"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Wie viel Prozent Sauerstoff bekommt der Patient bei einer Mund-zu-Mund-Beatmung?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Ca. 34%"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Ca. 21%"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Ca. 83%"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Ca. 17%"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Wenn ein Erwachsener nicht ansprechbar ist und nicht normal atmet, rufen Sie die Rettung und...?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "führen eine stabile Seitenlage durch"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "führen sofort Beatmungen durch"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "beginnen sofort mit der Herzdruckmassage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "versuchen eine Lagerung mit erhöhten Beinen"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind unbedingt durchzuführen, sobald der Erkrankte in die stabile Seitenlage gebracht wurde?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Elektroden des Defibrillators am Brustkorb anbringen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Basismaßnahmen durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Spätestens jetzt Notruf wählen, regelmaßige Atemkontrollen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Sofort mit Herzdruckmassage und Beatmung beginnen"
+                }
+            ],
+            "c": [
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Aussagen treffen bezüglich Defibrillation in der Ersten Hilfe zu?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Die Defibrillation darf bei Notfallpatienten ab dem 1. vollendeten Lebensjahr angewendet werden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Die Defibrillation darf nur von einem Sanitäter angewendet werden"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Die Defibrillation darf nur vom Arzt angewendet werden"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Die rechtliche Situation besagt, dass die Defibrillation in einer Notsituation unbedenklich ist"
+                }
+            ],
+            "c": [
+                1,
+                4
+            ]
+        },
+        {
+            "q": "Was sind Erste-Hilfe-Maßnahmen bei einem Kollaps?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Basismaßnahmen - Beine hochlagern"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Deckenrolle bei den Knien - angezogene Beine"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen - für frische Luft sorgen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Eis zum Lutschen verabreichen"
+                }
+            ],
+            "c": [
+                1,
+                3
+            ]
+        },
+        {
+            "q": "Wann darf eine Ersthelferdefibrillation nicht angewendet werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Es gibt keine Kontraindikationen - die Defibrillation darf immer durchgeführt werden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Z.B. bei Säuglingen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Z.B. Patient liegt auf Eisenbahnschienen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Z.B. Patient liegt in einer Wasserlacke"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Aus welchen Schritten besteht der Notfallcheck?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Atemwege freimachen und Atmung kontrollieren"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Notfallcheck darf nur ein Sanitäter oder Notarzt durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Laut ansprechen und sanft schütteln, Hilferuf"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Es ist nur der Notruf abzusetzen"
+                }
+            ],
+            "c": [
+                1,
+                3
+            ]
+        },
+        {
+            "q": "Bei welchen Notfällen ist eine Seitenlage sinnvoll?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Bewusstseinsstörung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Gefahr des Erbrechens"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Herzbeschwerden mit Atemnot"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verstauchtem Knöchel"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Welche Technik wird bei der Herzdruckmassage im Rahmen der Ersten Hilfe angewendet?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Be- und Entlastungsphase sollen gleich lang sein"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Möglichst kurze Be- und Entlastungsphase"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Notfallpatienten auf eine harte, unnachgiebige Unterlage legen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Mitte Brustkorb schnell und kräftig niederdrücken"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Atem-Kreislauf-Stillstand durchzuführen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Zweimalige Beatmung und danach den Notruf absetzen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Einen Defibrillator und Verbandskasten holen lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Notruf absetzen und Beatmungen durchführen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notruf absetzen und sofort Herzdruckmassagen und Beatmungen (30:2) durchführen"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche Vorgehensweise ist bei der Anwendung eines Defibrillators korrekt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Defibrillator einschalten und den Anweisungen des Geräts folgen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Während Schockabgabe Herzdruckmassage durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Elektroden aufkleben und dann erst Defibrillator einschalten"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Solange eine Beatmung durchgeführt wird keine Elektroden aufkleben"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Was gehört zum Notfallcheck?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Oberkörper hochlagern"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Beine hochlagern"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Laut ansprechen und sanft schütteln"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Atemwege freimachen und Atmung kontrollieren"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Bei Verdacht auf Schlaganfall wendet der Ersthelfer den FAST-Test an. F steht für Face (Gesicht), S steht für Speech (Sprache), T steht für Time (Zeit). Wofür steht das \"A\" bei FAST?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Apoplexie (Schlaganfall)"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Arms (Arme)"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Arrhythmie (Unregelmäßigkeit)"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Azidose (Übersäuerung)"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Wie lautet die lebensrettende Erste-Hilfe-Maßnahme, die mit saugendem Material mit den Fingern, dem Handballen oder der Faust mit Druck auf die stark blutende Wunde ausgeübt wird?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Manueller Druck"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Blutdruck"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Herzdruckmassage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Druckverband"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche Lagerung wird bei einer starken Blutung durchgeführt (z. B. Kreissägenverletzung am Unterarm)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Oberkörper-Hochlagerung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Beine-Hochlagerung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Deckenrolle unter dem Knie"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Lagerung ohne Veränderung der Körperhaltung"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei einer starken Blutung am Unterschenkel durchzuführen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Verletzten hinlegen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Verletzten stehen lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Der Ersthelfer soll nur den Notruf absetzen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Beine hochlagern und manuellen Druck durchführen oder Druckverband anlegen"
+                }
+            ],
+            "c": [
+                1,
+                4
+            ]
+        },
+        {
+            "q": "Wie wird die Mund-zu-Nase-Beatmung im Rahmen der Ersten Hilfe durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notfallbeatmungstuch über Nase des Notfallpatienten legen, Kopf nackenwärts überstrecken, Mund zuhalten und 2 Mal beatmen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Die Beatmung wird ausschließlich durch den Notarzt durchgeführt"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Der Ersthelfer kontrolliert durch das normale Heben und Senken des Brustkorbes die Effektivität der Beatmung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notfallbeatmungstuch über Mund des Notfallpatienten legen, Kopf nackenwärts überstrecken, Nase zuhalten und 2 Mal beatmen"
+                }
+            ],
+            "c": [
+                1,
+                3
+            ]
+        },
+        {
+            "q": "Welche Möglichkeiten zur Stillung einer starken Blutung gibt es in der Ersten Hilfe?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Blutgefäß abbinden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Manueller Druck"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Druckverband"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verletzten Körperteil nach unten halten"
+                }
+            ],
+            "c": [
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Wie wird die Mund-zu-Mund-Beatmung im Rahmen der Ersten Hilfe durchgeführt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notfallbeatmungstuch über Nase des Notfallpatienten legen, Kopf nackenwärts überstrecken, Mund zuhalten und 2 Mal beatmen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Der Ersthelfer kontrolliert durch das normale Heben und Senken des Brustkorbs die Effektivität der Beatmung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Die Beatmung wird ausschlieBlich durch den Notarzt durchgeführt"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notfallbeatmungstuch über Mund des Notfallpatienten legen, Kopf nackenwärts überstrecken, Nase zuhalten und 2 Mal beatmen"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei Nasenbluten zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Verletzten hinsetzen und den Kopf nach vorne beugen lassen, Nasenflügel zudrücken"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Verletzten hinsetzen und den Kopf nackenwärts beugen lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kaltes Tuch in den Nacken legen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Durchführung der Basismaßnahmen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Sonnenstich/Hitzschlag zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Betroffenen an einen schattigen Ort bringen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wasser zu trinken geben"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Kalte Umschläge am Kopf"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei Unterkühlungsverdacht zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notruf, Basismaßnahmen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Warme alkoholische Getränke verabreichen, gleichzeitig frottieren"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Warme gezuckerte Getränke verabreichen, Bewegungen vermeiden, gut zudecken"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Durch Erwärmen des Körperkerns das weitere Absinken der Temperatur stoppen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Schlaganfall zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notruf"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Beruhigung, Seitenlage zur Vorbeugung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Öffnen beengender Kleidungsstücke, Frischluftzufuhr"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Woran erkennt man einen Herzinfarkt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Kopfschmerzen und Ohrensausen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schmerzen in der Brust"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Engegefühl in der Brust"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Angstgefühl, Vernichtungsschmerz"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind im Vergiftungsnotfall durchzuführen, wenn das Gift bekannt ist und der Betroffene bei Bewusstsein ist?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Zuerst Notruf, dann Vergiftungsinformationszentrale kontaktieren und Anweisungen durchführen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Sofort schluckweise Wasser zum Trinken geben"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Zum Erbrechen bringen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Seitenlage durchführen"
+                }
+            ],
+            "c": [
+                1,
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Verdacht eines Herzinfarkts zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Notruf, Defibrillator und Verbandskasten holen lassen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Öffnen beengender Kleidungstücke"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Am nächsten Tag Hausarzt zur Abklärung aufsuchen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Durch körperliche Anstrengung in heißer oder feuchtwarmer Umgebung (hohe Luftfeuchtigkeit) und erschwerter Schweißabgabe (Kleidung) kann es zu einem Wärmestau und zu einer Erhöhung der Körpertemperatur kommen. Wie nennt man dieses Krankheitsbild?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Hypotonie"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Hypertonie"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Hitzschlag"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Hyperventilation"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Was versteht man unter einer Vergiftung?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Das Auftreten schwerer, oft lebensbedrohlicher Krankheitsbilder nach Aufnahme giftiger Substanzen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Vergiftungen entstehen am häufigsten bei Gefahrengutunfällen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Nur bei Aufnahme großer Mengen schädlicher Substanzen kann von einer Vergiftung gesprochen werden"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Nur feste Stoffe können Vergiftungen hervorrufen"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche typischen Warnzeichen weisen auf einen Schlaganfall hin?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Plötzliche Schwäche oder Gefühlsstörungen einer Körperseite, besonders im Gesicht oder im Arm"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schwindel, Gangunsicherheit und Verwirrtheit"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Erkrankte/r kann keinen einfachen Satz nachsprechen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Nach oben gerichtete Mundwinkel"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Asthmaanfall zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Lagerung mit erhöhtem Oberkörper"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Lagerung mit erhöhten Beinen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen durchführen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Erleichterung der Atmung - Abstützen der Arme"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind im Vergiftungsnotfall durchzuführen (Patient nicht ansprechbar)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Giftentfernung durch provoziertes Erbrechen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Notfallcheck, stabile Seitenlage oder Wiederbelebung durchführen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Bei nicht vorhandener Atmung Verzicht auf Herzdruckmassage"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Betroffenen in der vorgefundenen Lage belassen"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind beim Verdacht der Blutzuckerentgleisung bei einem Diabetiker zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Ist der Betroffene ansprechbar, darf Zuckerhaltiges verabreicht werden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wasser oder Bier verabreichen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Basismaßnahmen durchführen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notruf absetzen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welches Material benötigen Sie für den manuellen Druck?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Saugendes Material, z. B. Wundauflage"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Druckkörper"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Klemme"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wunddesinfektion"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Was sollte der Ersthelfer bei der Blutstillung vermeiden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Verwendung einer keimfreien Wundauflage"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Durchführung der Basismaßnahmen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Direkter Kontakt mit Blut"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verwendung von Mullbindenverbänden"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind beim Anlegen eines Druckverbandes durchzuführen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "e-Card und Ausweis kontrollieren"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Keimfreie Wundauflage fest auf die Wunde drücken"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Druck durch festes Umwickeln mit der Mullbinde erzeugen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verletzter soll selbst auf die Wunde drücken"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind beim Verschlucken (schwere Verlegung der Atemwege) durchzuführen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Oberkörper nach vorne beugen, Brustkorb stützen und bis zu 5x Heimlich-Manöver durchführen. Falls keine Besserung: Bis zu 5 Schläge zwischen die Schulterblätter durchführen usw."
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Oberkörper nach vorne beugen, Brustkorb stützen und bis zu 5x fest zwischen die Schulterblätter schlagen. Falls keine Besserung: Heimlich-Handgriff bis zu 5x durchführen usw."
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Betroffenen zum Husten ermuntern"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Falls der Betroffene bewusstlos wird, entspricht dies einem Atem-Kreislauf-Stillstand und es ist sofort mit der Wiederbelebung zu beginnen"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Krampfanfall korrekt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Zunge festhalten, um Zungenbiss zu vermeiden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "während des Krampfs vor weiteren Verletzungen schützen (z. B. Sessel wegstellen)"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "nach dem Krampfanfall Atmung überprüfen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "wenn Erkrankter nach dem Krampf ansprechbar ist: Seitenlagerung empfohlen"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Wie versorgt man einen Verletzten mit einer stark blutenden Wunde an einer Extremität?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Es ist nur der Notruf abzusetzen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Pflasterverband anbringen und mit den Fingern darauf drücken"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Manuellen Druck auf die Wunde ausüben oder Druckverband anlegen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Basismaßnahmen, verletzten Körperteil hochhalten"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Durch starke Sonnenbestrahlung kann es zu Kopfschmerzen, Übelkeit, Erbrechen, Nackensteife, Bewusstseinsstörungen und Krämpfen kommen. Mit welchen Notfällen ist zu rechnen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Hitzeerschöpfung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Sonnenstich"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Hitzschlag"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Nasenbluten"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Bei welcher Verletzung ist der manuelle Druck zur Blutstillung geeignet?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Halsschlagaderverletzung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schürfwunde"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Magenblutung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verrenkung"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Was versteht man unter einer starken Blutung?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Wenn aus einer Wunde innerhalb kurzer Zeit eine große Blutmenge verloren geht"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wenn das Blut langsam aus der Wunde tropft"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wenn das Blut aus der Wunde spritzt"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wenn das Blut im Schwall austritt"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Maßnahme ist vom Ersthelfer zu setzen, wenn es bei einer starken Blutung durch den Druckverband durchblutet?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Manuellen Druck auf den Druckverband ausüben"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Weiterbluten lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Bestehenden Druckverband wieder heruntergeben und mit verwendetem Material wieder neuen Druckverband anlegen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Abbindung vornehmen"
+                }
+            ],
+            "c": [
+                1
+            ]
+        },
+        {
+            "q": "Welche Vergiftungserscheinungen gibt es?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Erregungs- und Rauschzustände"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Bewusstseinsstörungen bis Bewusstlosigkeit"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Übelkeit - Erbrechen - Durchfälle"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Atemstörungen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Anzeichen können auf einen Schlaganfall deuten?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Plötzliche Schwäche, Gefühlsstörung oder Lähmung einer Körperseite"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Querschnittslähmung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Akute Bauchschmerzen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Erkrankter kann keinen einfachen Satz nachsprechen"
+                }
+            ],
+            "c": [
+                1,
+                4
+            ]
+        },
+        {
+            "q": "Welche Gefahren bestehen bei einem Insektenstich?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Schwellung und Rötung des Gewebes im Bereich der Einstichstelle"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Gefahr durch allergische Reaktionen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Schwellungen im Bereich der Atemwege"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Übertragung einer HIV-Infektion (AIDS) möglich"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind zu setzen, wenn der Abtransport eines Unterkühlten in absehbarer Zeit nicht möglich ist (z. B. Gebirge)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Den Unterkühlten, wenn möglich, an einen windstillen Ort oder in einen warmen Raum (Schutzhütte) bringen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Warme gezuckerte Getränke verabreichen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kalte, nasse Kleidung vorsichtig entfernen - in angewärmte Decken hüllen und eventuelle Erfrierungen keimfrei verbinden"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Warme, trockene Umschläge auf Brust, Bauch und Nacken legen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei Verätzungen zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Kleider nicht entfernen, um die bereits geschädigte Haut nicht weiter zu verletzen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Keimfreien Verband anlegen, Notruf und Basismaßnahmen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Sofort mit reinem Wasser intensiv spülen, darauf achten, dass das abfließende Wasser den kürzesten Weg über die Haut nimmt"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Sofort die mit ätzender Substanz getränkten Kleider vorsichtig entfernen"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Wann muss man auch mit einer geringfügigen Verletzung (Wunde) zum Arzt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Wenn eine kleine Rötung zu sehen ist"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Wenn die Verletzung leicht schmerzt"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wenn der Verletzte nicht aktiv gegen Tetanus geimpft ist"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wenn der verletzende Gegenstand weniger als 1,5 mm eindringt"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Was ist das Prinzip bei der Versorgung von chemischen Wunden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Neutralisierung durch die Verabreichung von Gegenmitteln durch den Ersthelfer"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Bei chemischen Wunden im Verdauungstrakt stets zum Erbrechen bringen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Die rasche Entfernung bzw. Verdünnung der ätzenden Substanz"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Patienten in sitzender Position so schnell wie möglich zum Betriebsarzt bringen"
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Welche Prinzipien gelten bei der Wundversorgung (Erste Hilfe)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Fremdkörper in der Wunde belassen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Falls notwendig von einem Arzt behandeln lassen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Oberflächliche Wunden mit sauberem Wasser reinigen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Einmalhandschuhe für den Ersthelfer nicht empfohlen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Infektionserkrankungen können durch Bisse infizierter Zecken übertragen werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Mumps"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Borreliose"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Typhus"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Frühsommer-Meningoenzephalitis (FSME)"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Nennen Sie die Versorgung von Wunden.",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Den Verletzten hinsetzen oder hinlegen, Wunden keimfrei verbinden, dabei die Wunde auf jeden Fall mit klarem Wasser auswaschen und Desinfektion vornehmen. Tiefgehende Fremdkörper zur Schmerzlinderung herausziehen."
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Den Verletzten hinsetzen, Wunde nicht berühren, aber von den gröbsten Verunreinigungen mit heißem Wasser befreien. Bei Notwendigkeit Wunde mit antiseptischen Tees spülen."
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Den Verletzten hinsetzen oder hinlegen, Wunden keimfrei verbinden, wenn notwendig Arzt oder Krankenhaus aufsuchen - möglichst sofort - jedoch innerhalb von 6 Stunden."
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wunden keimfrei verbinden, dabei die Wunde nicht berühren und sicherheitshalber so nahe wie möglich bei der Wunde abbinden, Arzt oder Krankenhaus aufsuchen - möglichst sofort, jedoch innerhalb von 9 Stunden."
+                }
+            ],
+            "c": [
+                3
+            ]
+        },
+        {
+            "q": "Warum werden bei schwerer Schädigung eines Auges beide Augen keimfrei bedeckt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Um die Lichtstärke zu vermindern"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Ohne Bedeckung würde das verletzte Auge synchron den Bewegungen des unverletzten Auges folgen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Damit die Schädigung nicht auf das unverletzte Auge übergreifen kann"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Um bleibendes Schielen zu verhindern"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Wodurch können Verbrennungen bzw. Verbrühungen entstehen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Kontakt mit elektrischem Strom"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Heiße Flüssigkeiten und Dämpfe, Hitzestrahlung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Berührung heißer Gegenstände, offenes Feuer"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Flüssig gelagerte Gase"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Zeichen deuten auf einen Schlangenbiss hin?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Starke Blutung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Punktförmige Wunden (Fangmarken) in Stecknadelkopfgröße"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Im Bereich der Bissstelle treten sofort Eiterungen auf"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Vergiftungserscheinungen möglich, jedoch im Allgemeinen (heimische Schlangen) nicht lebensbedrohend"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Wie sollte der Ersthelfer bei einem abgetrennten Körperteil vorgehen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Nichts unternehmen, nur auf Rettungsdienst warten"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Abgetrennten Körperteil mit Eiswürfel kühlen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Abgetrennten Körperteil mit Seife reinigen, Wundversorgung durchführen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Keimfreie Wundversorgung durchführen und abgetrennten Körperteil in Rettungsdecke/Plastiksack wickeln"
+                }
+            ],
+            "c": [
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind nach einem Biss durch eine heimische Giftschlange zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Warme Umschläge auf die Bissstelle legen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Verbinden der Wunde und kalte Umschläge auf die Bissstelle legen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Verletzten Körperteil heftig bewegen lassen, kalte Umschläge auf die Bissstelle legen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Durchführung der Basismaßnahmen, Notruf"
+                }
+            ],
+            "c": [
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Warum kann ein Zeckenstich gefährlich sein?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Übertragung von Tollwut"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Übertragung von anderen Krankheiten (z. B. Borreliose)"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Übertragung von Hirnhautentzündung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Übertragung von Wundstarrkrampf"
+                }
+            ],
+            "c": [
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Was bewirkt die Anwendung von Wasser bei Verbrennungen und wie leistet man am besten Erste Hilfe?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Mindert die Verbrennungstiefe im Gewebe und führt zur Schmerzlinderung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Sofort unter reinem, handwarmem Wasser kühlen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Führt zu einer erhöhten Infektionsgefahr und Blutvergiftung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Ist dem Verletzten kalt, ist die kühlende Spülung zu stoppen"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche Gefahren können durch einen Schlangenbiss entstehen (heimische Schlangen)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Schlangenbisse sind grundsätzlich tödlich"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Vergiftungs- und Lähmungserscheinungen mit Spätfolgen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Vergiftungserscheinungen möglich, jedoch nicht lebensbedrohend"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Kreislaufstörungen, allergische Reaktion möglich"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen werden bei Verätzungen im Bereich des Verdauungstraktes gesetzt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Sofort Wasser in kleinen Schlucken zu trinken geben"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Mund ausspülen, anschlieBend mit Salzwasser zum Erbrechen bringen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kontaktaufnahme mit der Vergiftungsinformationszentrale: 01/406 43 43"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Mund ausspülen, Seitenlage, Notruf und Basismaßnahmen"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei einer Verätzung der Haut zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Betreffende Hautstelle mit klarem Wasser spülen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Eintreffen des Roten Kreuzes (Rettung) abwarten, keine Erste Hilfe möglich"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Keimfreien Verband anlegen (metallisiert, wenn vorhanden)"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Notruf, Basismaßnahmen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Erste-Hilfe-Maßnahmen sind bei Verdacht auf Erfrierung zu setzen (Patient ist ansprechbar)?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Keimfreien Verband anlegen, Zudecken hat große Bedeutung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Notruf, Basismaßnahmen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Beengende Bekleidung öffnen und warme, gezuckerte Getränke verabreichen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Alkohol zu trinken geben, dadurch werden die Gefäße erweitert und wärmendes Blut versorgt den Körperkern"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "q": "Welche Aussagen treffen im Zuge der Versorgung (Erste Hilfe) von Brandwunden zu?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Die Spülung soll mit kaltem Wasser für mindestens 20 Minuten durchgeführt werden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Die Wunde darf bei der Kühlung nicht direkt mit Wasser in Berührung kommen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Spülung mit handwarmem Wasser, Patienten darf es nicht frösteln"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Versorgung mit Wundauflagen, falls vorhanden mit beschichteten Wundauflagen (z. B. metallisiert)"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind nach einem Zeckenstich zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Ungeimpfte sollen nach einem Zeckenstich auf jeden Fall zum Arzt"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Öl oder Klebstoff auftropfen, durch kreisende Bewegung Zecke lockern und entfernen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Bei späteren Rötungen bzw. Entzündungen ist der Arzt aufzusuchen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Mit einer Pinzette möglichst weit vorne fassen und gerade herausziehen"
+                }
+            ],
+            "c": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welcher Zeitraum ist zur Versorgung von Wunden durch einen Arzt maßgeblich?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Innerhalb von 2 Stunden"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Innerhalb von 4 Stunden"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Innerhalb von 6 Stunden"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Bei ausgedehnten Verletzungsmustern sofort"
+                }
+            ],
+            "c": [
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche Möglichkeit der Reinigung empfiehlt es sich im Rahmen der Ersten Hilfe, um Schmutz aus einer Wunde (Abschürfung am Knie) herauszubekommen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Handtuch auf Wunde legen um Schmutz aufzusaugen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Mit sauberem, handwarmem Wasser Wunde ausspülen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Wunde vergrößern, damit Blut die Wunde spült"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Schmutz immer in Wunde belassen"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Abwann soll bei Verbrennungen ein Arzt aufgesucht werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Immer"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Verbrennungen mit Blasenbildung größer als eine Handflache"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Verbrennungen 1. Grades bei Symptomen wie Kopfschmerzen, Fieber und Unwohlsein"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verbrennungen 3. Grades"
+                }
+            ],
+            "c": [
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Wann wird ein Pflasterwundverband verwendet?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Zeckenstich"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Bei kleinen, nicht stark blutenden Wunden"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Verbrennungen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Erfrierungen"
+                }
+            ],
+            "c": [
+                2
+            ]
+        },
+        {
+            "q": "Welche Aufgaben hat der Helfer bei einer Verstauchung?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Kühlung der Schwellung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schonung des Gelenks"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kompressionsverband anlegen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Verletzten Körperteil erhöht lagern"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche Kennzeichen (Erkennen) gibt es bei Knochen- und Gelenksverletzungen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Schmerzen, Schwellung, Schonhaltung"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Abnorme Fehlstellung"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Große Beweglichkeit trotz Schwellung"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Bewegungsunfähigkeit oder Bewegungseinschränkung"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Wann soll bei Gelenksverletzungen ein Arzt aufgesucht werden?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Wenn nach einigen Tagen keine Besserung eintritt"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Im Zweifelsfall, ob eine Verletzung vorliegt"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Belastung des Körperteils ist möglich, leichte Schmerzen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Wenn nach 24 Stunden noch keine Besserung eingetreten ist"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        },
+        {
+            "q": "Wie wird ein Armtragetuch am besten angelegt?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Spitze des Dreiecktuches verknoten"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Tuch vorsichtig unter dem verletzten Arm durchziehen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Tuch vorerst unter dem unverletztem Arm durchziehen, auf die verletzte Schulter ablegen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Die Enden des Dreieckstuches seitlich im Nacken verknoten"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche Symptome und Komplikationen bei einer Verrenkung gibt es?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Schmerzen, abnorme Stellung, Bewegungsunfähigkeit"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Überdehnung und Zerreißen der Gelenkskapsel und der Bänder"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Leichte Schmerzen, normale Stellung, Bewegung etwas eingeschränkt"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Blutung ins Gelenk möglich"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                4
+            ]
+        },
+        {
+            "q": "Welche allgemeinen Erste-Hilfe-Maßnahmen sind bei Knochen- und Gelenksverletzungen zu setzen?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Bei offenen Verletzungen keimfreien Verband anlegen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Beengende Kleidungsstücke über der Verletzung lockern"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Ruhigstellung, bei Schwellung zusätzlich kühlen"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Basismaßnahmen und Notruf"
+                }
+            ],
+            "c": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "q": "Welche dieser Tätigkeiten sind vor der Ausübung von Sport sinnvoll?",
+            "a": [
+                {
+                    "aNo": 1,
+                    "aT": "Aufwärmen"
+                },
+                {
+                    "aNo": 2,
+                    "aT": "Schutzausrüstung anlegen"
+                },
+                {
+                    "aNo": 3,
+                    "aT": "Kühlende Salben auf schmerzende Gelenke schmieren"
+                },
+                {
+                    "aNo": 4,
+                    "aT": "Eisspray auf Gelenke sprühen"
+                }
+            ],
+            "c": [
+                1,
+                2
+            ]
+        }
+    ]
+}

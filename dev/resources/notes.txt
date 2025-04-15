@@ -1,0 +1,8 @@
+# Live-Server:
+https://www.npmjs.com/package/live-server
+
+# TypeScript compiler:
+https://dev.to/quentindamianino/how-to-install-typescript-on-ubuntu-33am
+
+# Browserify:
+https://browserify.org/#install
