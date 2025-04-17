@@ -133,9 +133,10 @@ export default class QuizExam {
 
         this.sections.evaluation.innerHTML = `
             <p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>
-            <p><b>Info:</b> Kästchen, deren Zustand nicht mit der Lösung übereinstimmen, sind rot
-            markiert (rotes Kästchen ohne Kreuz: hätte angekreuzt werden müssen, rotes Kästchen mit
-            Kreuz: hätte nicht angekreuzt werden dürfen).</p>
+            <p><b>Info:</b> Kästchen, deren Zustand nicht mit der Lösung übereinstimmt, haben
+            <span class="incorrect_label">rot</span>
+            markierten Text (rot ohne Kreuz: hätte angekreuzt werden müssen; rot mit Kreuz: hätte
+            nicht angekreuzt werden dürfen).</p>
         `;
     }
 }
