@@ -24,10 +24,6 @@ article {
     border-radius: 2vw;
     padding: 7vw;
     margin: 7vw;
-    /* only for flex containers: */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 #article_start {
@@ -53,13 +49,6 @@ button {
     padding: 0.2em;
     cursor: pointer;
 }
-
-
-/* not needed anymore */
-/* .button_link {
-    color: black;
-    text-decoration: none;
-} */
 
 .button_block,
 .progress_label {
@@ -194,7 +183,6 @@ span {
     text-align: center;
     color: white;
 }
-
 
 h2 {
     color: #B70E0C;

@@ -154,7 +154,6 @@ const exam = new QuizExam_js_1.default(current_questions_js_1.default);
 
 },{"./QuizExam.js":1,"./current_questions.js":3}],5:[function(require,module,exports){
 module.exports={
-    "QUESTION_COUNT": 88,
     "questions": [
         {
             "q": "Die Notrufnummer der Feuerwehr lautet...",
