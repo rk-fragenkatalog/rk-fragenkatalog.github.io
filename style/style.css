@@ -147,8 +147,9 @@ progress[value] {
 }
 
 #video {
-    width: 100%;
-    height: 74vh;
+    /* ratio w:h approx 2:1 */
+    width: 69vw;
+    height: 35vw;
 }
 
 li {
