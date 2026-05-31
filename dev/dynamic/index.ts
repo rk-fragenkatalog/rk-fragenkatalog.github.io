@@ -1,5 +1,4 @@
 const articles = document.getElementsByTagName("article") as HTMLCollectionOf<HTMLDivElement>;
-const buttons = document.getElementsByClassName("start_button") as HTMLCollectionOf<HTMLButtonElement>;
 
 // quick and dirty
 const password_input = document.getElementById("password_input")! as HTMLInputElement;
@@ -17,7 +16,7 @@ password_submit.addEventListener("click", () => {
     }
 });
 
-password_input.addEventListener("keypress", (event) => {
+password_input.addEventListener("keydown", (event) => {
     // https://stackoverflow.com/questions/58341832/event-is-deprecated-what-should-be-used-instead
     if (event.key === "Enter") {
         password_submit.click();

@@ -1,6 +1,5 @@
 "use strict";
 const articles = document.getElementsByTagName("article");
-const buttons = document.getElementsByClassName("start_button");
 // quick and dirty
 const password_input = document.getElementById("password_input");
 const password_submit = document.getElementById("password_submit");
@@ -15,7 +14,7 @@ password_submit.addEventListener("click", () => {
         password_status.innerHTML = "<p>Falsches Passwort!</p>";
     }
 });
-password_input.addEventListener("keypress", (event) => {
+password_input.addEventListener("keydown", (event) => {
     // https://stackoverflow.com/questions/58341832/event-is-deprecated-what-should-be-used-instead
     if (event.key === "Enter") {
         password_submit.click();

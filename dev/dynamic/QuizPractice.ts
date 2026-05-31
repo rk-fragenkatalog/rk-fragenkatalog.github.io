@@ -214,7 +214,7 @@ export default class QuizPractice {
         this.progress.bar.setAttribute("max", this.counters.questions.toString());
         this.progress.label.textContent = `${this.counters.correct} richtig & ${this.counters.incorrect} falsch / ${this.counters.questions} insgesamt`
 
-        // queck question counter
+        // check question counter
         if (this.counters.questions === this.totalAmountOfQuestions) {
             this.buttons.next.textContent = "Abschluss";
         }
@@ -232,7 +232,7 @@ export default class QuizPractice {
             this.checks.boxes[i].checked = false;
         }
 
-        // queck question counter again
+        // check question counter again
         if (this.counters.questions === this.totalAmountOfQuestions) {
             this.doSpecialStuff();
             return true;

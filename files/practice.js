@@ -1,4 +1,4 @@
-(function(){function p(o,i,f){var a="function"==typeof require&&require;function c(n,r){if(!i[n]){if(!o[n]){var e="function"==typeof require&&require;if(!r&&e)return e(n,!0);if(a)return a(n,!0);var r=new Error("Cannot find module '"+n+"'");throw r.code="MODULE_NOT_FOUND",r}var e=i[n]={exports:{}};o[n][0].call(e.exports,function(r){var e;return c(o[n][1][r]||r)},e,e.exports,p,o,i,f)}return i[n].exports}for(var r=0;r<f.length;r++)c(f[r]);return c}return p})()({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const array_functions_js_1 = require("./array_functions.js");
@@ -130,7 +130,7 @@ class QuizPractice {
         this.progress.bar.setAttribute("value", this.counters.correct.toString());
         this.progress.bar.setAttribute("max", this.counters.questions.toString());
         this.progress.label.textContent = `${this.counters.correct} richtig & ${this.counters.incorrect} falsch / ${this.counters.questions} insgesamt`;
-        // queck question counter
+        // check question counter
         if (this.counters.questions === this.totalAmountOfQuestions) {
             this.buttons.next.textContent = "Abschluss";
         }
@@ -145,7 +145,7 @@ class QuizPractice {
             this.checks.boxes[i].disabled = false;
             this.checks.boxes[i].checked = false;
         }
-        // queck question counter again
+        // check question counter again
         if (this.counters.questions === this.totalAmountOfQuestions) {
             this.doSpecialStuff();
             return true;
