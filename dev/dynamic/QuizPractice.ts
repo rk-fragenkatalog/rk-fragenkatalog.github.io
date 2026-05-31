@@ -6,12 +6,10 @@ import { shuffleArray, compareArrays } from "./array_functions.js";
 type divType = {
     question: HTMLDivElement;
     evaluation: HTMLDivElement;
-    results: HTMLDivElement;
-    progress: HTMLDivElement;
+    finalResults: HTMLDivElement;
 };
 
 type buttonType = {
-    back: HTMLButtonElement;
     submit: HTMLButtonElement;
     next: HTMLButtonElement;
 };
@@ -29,8 +27,6 @@ type checkType = {
 type sectionType = {
     questionBlock: HTMLDivElement;
     buttonBlock: HTMLDivElement;
-    evaluationBlock: HTMLDivElement;
-    results: HTMLDivElement;
 };
 
 type counterType = {
@@ -46,6 +42,7 @@ type storageType = {
     countersIncorrect: string | null;
 };
 
+const ANSWER_COUNT = 4;
 
 export default class QuizPractice {
     // readonly properties can only be set in constructor
@@ -58,7 +55,6 @@ export default class QuizPractice {
     readonly buttons: buttonType;
     readonly progress: progressType;
     readonly checks: checkType;
-    readonly originalHTML = document.getElementById("article_practice")!.innerHTML;
     readonly counters: counterType;
     readonly storage: storageType;
 
@@ -76,30 +72,26 @@ export default class QuizPractice {
         };
 
         this.counters = {
-            questions: (this.storage.countersQuestions) ? parseInt(this.storage.countersQuestions) : 0,
-            correct: (this.storage.countersCorrect) ? parseInt(this.storage.countersCorrect) : 0,
-            incorrect: (this.storage.countersIncorrect) ? parseInt(this.storage.countersIncorrect) : 0,
+            questions: (this.storage.countersQuestions) ? Number.parseInt(this.storage.countersQuestions, 10) : 0,
+            correct: (this.storage.countersCorrect) ? Number.parseInt(this.storage.countersCorrect, 10) : 0,
+            incorrect: (this.storage.countersIncorrect) ? Number.parseInt(this.storage.countersIncorrect, 10) : 0,
         };
 
         // https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp
-        this.shuffledIndices = (this.storage.shuffledIndices) ? JSON.parse(this.storage.shuffledIndices) : shuffleArray([...Array(this.totalAmountOfQuestions).keys()]);
+        this.shuffledIndices = (this.storage.shuffledIndices) ? JSON.parse(this.storage.shuffledIndices) : shuffleArray([...new Array(this.totalAmountOfQuestions).keys()]);
 
         this.sections = {
             questionBlock: document.getElementById("practice_question_block")! as HTMLDivElement,
             buttonBlock: document.getElementById("practice_button_block")! as HTMLDivElement,
-            evaluationBlock: document.getElementById("practice_evaluation_block")! as HTMLDivElement,
-            results: document.getElementById("practice_results")! as HTMLDivElement,
         };
 
         this.divs = {
             question: document.getElementById("practice_question")! as HTMLDivElement,
             evaluation: document.getElementById("practice_evaluation")! as HTMLDivElement,
-            results: document.getElementById("practice_results")! as HTMLDivElement,
-            progress: document.getElementById("practice_progress")! as HTMLDivElement,
+            finalResults: document.getElementById("practice_final_results")! as HTMLDivElement,
         };
 
         this.buttons = {
-            back: document.getElementById("practice_back")! as HTMLButtonElement,
             submit: document.getElementById("practice_submit")! as HTMLButtonElement,
             next: document.getElementById("practice_next")! as HTMLButtonElement,
         };
@@ -110,7 +102,7 @@ export default class QuizPractice {
         };
 
         // init checkboxes and their labels
-        for (let i = 0; i < 4; ++i) {
+        for (let i = 0; i < ANSWER_COUNT; ++i) {
             this.checks.boxes[i] = document.getElementById(`practice_A${i}`)! as HTMLInputElement;
             this.checks.labels[i] = document.getElementById(`practice_A${i}_label`)! as HTMLLabelElement;
         }
@@ -133,26 +125,23 @@ export default class QuizPractice {
     buildQuestionsHTMLStructure(): void {
         const outputArray: string[] = [];
 
-        for (let i = 0; i < 4; ++i) {
+        for (let i = 0; i < ANSWER_COUNT; ++i) {
             outputArray.push(`
                 <input type="checkbox" id="practice_A${i}">
                 <label for="practice_A${i}" id="practice_A${i}_label"></label><br />
             `)
         }
+
         document.getElementById("practice_answer")!.innerHTML = outputArray.join("");
     }
 
     buildQuestion(): void {
-        // reset lock of evaluation button (or return at the end)
-        if (this.reset()) {
-            return;
-        }
-        else {
+        if (this.prepareNextQuestion()) {
             const currentQuestion = this.questions[this.shuffledIndices[this.counters.questions]];
             const currentAnswers = shuffleArray(currentQuestion.a);
 
             // update checkbox labels
-            for (let i = 0; i < 4; ++i) {
+            for (let i = 0; i < ANSWER_COUNT; ++i) {
                 this.checks.labels[i].textContent = currentAnswers[i].aT;
                 this.checks.boxes[i].name = currentAnswers[i].aNo.toString();
                 // textContent vs. innerText
@@ -170,9 +159,9 @@ export default class QuizPractice {
         const outputArray: string[] = [];
         let correct: boolean;
 
-        for (let i = 0; i < 4; ++i) {
+        for (let i = 0; i < ANSWER_COUNT; ++i) {
             if (this.checks.boxes[i].checked) {
-                checked.push(parseFloat(this.checks.boxes[i].name));
+                checked.push(Number.parseInt(this.checks.boxes[i].name, 10));
             }
             this.checks.boxes[i].disabled = true;
         }
@@ -220,33 +209,33 @@ export default class QuizPractice {
         }
     }
 
-    reset(): boolean {
+    prepareNextQuestion(): boolean {
         this.buttons.submit.disabled = false;
         this.buttons.next.disabled = true;
         this.divs.evaluation.innerHTML = "";
 
         // enable checkboxes
         // remove checks
-        for (let i = 0; i < 4; ++i) {
+        for (let i = 0; i < ANSWER_COUNT; ++i) {
             this.checks.boxes[i].disabled = false;
             this.checks.boxes[i].checked = false;
         }
 
         // check question counter again
         if (this.counters.questions === this.totalAmountOfQuestions) {
-            this.doSpecialStuff();
-            return true;
+            this.showFinalResults();
+            return false;
         }
         else {
-            return false;
+            return true;
         }
     }
 
-    doSpecialStuff(): void {
+    showFinalResults(): void {
         this.sections.questionBlock.hidden = true;
         this.sections.buttonBlock.hidden = true;
         this.divs.evaluation.hidden = true;
-        this.divs.results.hidden = false;
+        this.divs.finalResults.hidden = false;
         sessionStorage.clear()
     }
 }
