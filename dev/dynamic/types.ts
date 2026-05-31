@@ -5,14 +5,6 @@ export type answer = {
 };
 export type question = {
     q: string;
-    a: answer[];  // [answer, answer, answer, answer] throws an error magically 
+    a: answer[];  // [answer, answer, answer, answer] throws an error magically
     c: number[];
-};
-export type divStart = {
-    start: HTMLDivElement;
-    quiz: HTMLDivElement;
-};
-export type buttonStart = {
-    practice: HTMLButtonElement;
-    exam: HTMLButtonElement;
 };

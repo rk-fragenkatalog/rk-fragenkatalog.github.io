@@ -12,6 +12,8 @@ type sectionType = {
     evaluation: HTMLDivElement;
 }
 
+const ANSWER_COUNT = 4;
+
 export default class QuizExam {
     // properties
     // https://stackoverflow.com/questions/12686927/how-to-assert-a-type-of-an-htmlelement-in-typescript
@@ -21,10 +23,9 @@ export default class QuizExam {
 
     // constant properties
     readonly amountOfQuestionsDisplayed = 25;
-    readonly shuffled_questions: question[];
+    readonly shuffledQuestions: question[];
     readonly sections: sectionType;
     readonly buttons: buttonType;
-    readonly originalHTML: string;
 
     constructor(questions: question[]) {
         // very first init things
@@ -32,9 +33,8 @@ export default class QuizExam {
             examAllQuestions: document.getElementById("exam_all_questions")! as HTMLDivElement,
             evaluation: document.getElementById("exam_evaluation_block")! as HTMLDivElement,
         }
-        this.originalHTML = this.sections.examAllQuestions.innerHTML;
         this.buildQuestionsHTMLStructure();
-        this.shuffled_questions = shuffleArray(questions).slice(0, this.amountOfQuestionsDisplayed);
+        this.shuffledQuestions = shuffleArray(questions).slice(0, this.amountOfQuestionsDisplayed);
 
         // init buttons
         this.buttons = {
@@ -43,20 +43,6 @@ export default class QuizExam {
 
         // event listeners for buttons
         this.buttons.submit.addEventListener("click", () => this.evaluateAnswers());
-
-        // init questions, checkboxes and labels
-        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
-            this.questions[i] = document.getElementById(`exam_Q${i}`)! as HTMLDivElement;
-
-            // create empty lists for further assignments
-            this.checkboxes[i] = [];
-            this.checkboxLabels[i] = [];
-
-            for (let j = 0; j < 4; ++j) {
-                this.checkboxes[i][j] = document.getElementById(`Q${i}_A${j}`)! as HTMLInputElement;
-                this.checkboxLabels[i][j] = document.getElementById(`Q${i}_A${j}_label`)! as HTMLLabelElement;
-            }
-        }
 
         this.buildQuestions();
     }
@@ -69,7 +55,7 @@ export default class QuizExam {
                 <div class="question" id="exam_Q${i}"></div>
                 <div class="answer" id="exam_A${i}">
             `)
-            for (let j = 0; j < 4; ++j) {
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
                 outputArray.push(`
                     <input type="checkbox" id="Q${i}_A${j}">
                     <label for="Q${i}_A${j}" id="Q${i}_A${j}_label"></label>
@@ -82,11 +68,25 @@ export default class QuizExam {
     }
 
     buildQuestions(): void {
+        // init questions, checkboxes and labels
         for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
-            const currentQuestion = this.shuffled_questions[i];
+            this.questions[i] = document.getElementById(`exam_Q${i}`)! as HTMLDivElement;
+
+            // create empty lists for further assignments
+            this.checkboxes[i] = [];
+            this.checkboxLabels[i] = [];
+
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                this.checkboxes[i][j] = document.getElementById(`Q${i}_A${j}`)! as HTMLInputElement;
+                this.checkboxLabels[i][j] = document.getElementById(`Q${i}_A${j}_label`)! as HTMLLabelElement;
+            }
+        }
+
+        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
+            const currentQuestion = this.shuffledQuestions[i];
             const currentAnswers = shuffleArray(currentQuestion.a);
 
-            for (let j = 0; j < 4; ++j) {
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
                 this.checkboxLabels[i][j].textContent = currentAnswers[j].aT;
                 this.checkboxes[i][j].name = currentAnswers[j].aNo.toString();
             }
@@ -99,12 +99,12 @@ export default class QuizExam {
         const booleanArray: boolean[] = [];
 
         for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
-            const currentQuestion = this.shuffled_questions[i];
+            const currentQuestion = this.shuffledQuestions[i];
             const checked: number[] = [];
-            const correct = currentQuestion.c
+            const correct = currentQuestion.c;
 
-            for (let j = 0; j < 4; ++j) {
-                const name = parseFloat(this.checkboxes[i][j].name);
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                const name = Number.parseInt(this.checkboxes[i][j].name, 10);
 
                 if (this.checkboxes[i][j].checked) {
                     checked.push(name);
@@ -125,11 +125,7 @@ export default class QuizExam {
         }
 
         this.buttons.submit.disabled = true;
-
-        // '+' CAN be applied to 'number' and 'boolean'
-        // @ts-ignore
-        const achievedPoints: number = booleanArray.reduce((a, b) => a + b, 0)
-        // https://stackoverflow.com/questions/1230233/how-to-find-the-sum-of-an-array-of-numbers
+        const achievedPoints = booleanArray.reduce((sum, isCorrect) => sum + (isCorrect ? 1 : 0), 0);
 
         this.sections.evaluation.innerHTML = `
             <p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>
