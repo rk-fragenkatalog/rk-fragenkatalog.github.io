@@ -1,26 +1,29 @@
 # DEPENDENCIES
-# - typescript compiler
+# - TypeScript compiler
 # - bun
 
 .PHONY: all compile server clean
 
-all: compile files/index.js files/practice.js files/exam.js
+all: build/index.js build/practice.js build/exam.js
 
 compile:
 	tsc
 
-files/index.js: dev/dynamic/index.js
-	cp $< $@
+build/index.js: compile
+	@mkdir -p $(dir $@)
+	cp src/quiz/index.js $@
 
-files/practice.js: dev/dynamic/practice.js
-	bunx -y browserify $< -o $@
+build/practice.js: compile
+	@mkdir -p $(dir $@)
+	bunx -y browserify src/quiz/practice.js -o $@
 
-files/exam.js: dev/dynamic/exam.js
-	bunx -y browserify $< -o $@
+build/exam.js: compile
+	@mkdir -p $(dir $@)
+	bunx -y browserify src/quiz/exam.js -o $@
 
 server:
 	bunx -y live-server
 
 clean:
-	rm -f dev/dynamic/*.js
-	rm -f files/*.js
+	rm -f src/quiz/*.js
+	rm -rf build/

@@ -1,210 +1,4 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const array_functions_js_1 = require("./array_functions.js");
-const ANSWER_COUNT = 4;
-class QuizPractice {
-    constructor(questions) {
-        // very first init things
-        this.buildQuestionsHTMLStructure();
-        this.questions = questions;
-        this.totalAmountOfQuestions = questions.length;
-        this.storage = {
-            shuffledIndices: sessionStorage.getItem("shuffledIndices"),
-            countersQuestions: sessionStorage.getItem("countersQuestions"),
-            countersCorrect: sessionStorage.getItem("countersCorrect"),
-            countersIncorrect: sessionStorage.getItem("countersIncorrect"),
-        };
-        this.counters = {
-            questions: (this.storage.countersQuestions) ? Number.parseInt(this.storage.countersQuestions, 10) : 0,
-            correct: (this.storage.countersCorrect) ? Number.parseInt(this.storage.countersCorrect, 10) : 0,
-            incorrect: (this.storage.countersIncorrect) ? Number.parseInt(this.storage.countersIncorrect, 10) : 0,
-        };
-        // https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp
-        this.shuffledIndices = (this.storage.shuffledIndices) ? JSON.parse(this.storage.shuffledIndices) : (0, array_functions_js_1.shuffleArray)([...new Array(this.totalAmountOfQuestions).keys()]);
-        this.sections = {
-            questionBlock: document.getElementById("practice_question_block"),
-            buttonBlock: document.getElementById("practice_button_block"),
-        };
-        this.divs = {
-            question: document.getElementById("practice_question"),
-            evaluation: document.getElementById("practice_evaluation"),
-            finalResults: document.getElementById("practice_final_results"),
-        };
-        this.buttons = {
-            submit: document.getElementById("practice_submit"),
-            next: document.getElementById("practice_next"),
-        };
-        this.checks = {
-            boxes: [],
-            labels: [],
-        };
-        // init checkboxes and their labels
-        for (let i = 0; i < ANSWER_COUNT; ++i) {
-            this.checks.boxes[i] = document.getElementById(`practice_A${i}`);
-            this.checks.labels[i] = document.getElementById(`practice_A${i}_label`);
-        }
-        // init progress
-        this.progress = {
-            bar: document.getElementById("practice_progress_bar"),
-            label: document.getElementById("practice_progress_label"),
-        };
-        // event listeners for buttons
-        this.buttons.next.addEventListener("click", () => this.buildQuestion());
-        this.buttons.submit.addEventListener("click", () => this.evaluateAnswer());
-        // display first question
-        this.buildQuestion();
-        this.updateProgress();
-    }
-    buildQuestionsHTMLStructure() {
-        const outputArray = [];
-        for (let i = 0; i < ANSWER_COUNT; ++i) {
-            outputArray.push(`
-                <input type="checkbox" id="practice_A${i}">
-                <label for="practice_A${i}" id="practice_A${i}_label"></label><br />
-            `);
-        }
-        document.getElementById("practice_answer").innerHTML = outputArray.join("");
-    }
-    buildQuestion() {
-        if (this.prepareNextQuestion()) {
-            const currentQuestion = this.questions[this.shuffledIndices[this.counters.questions]];
-            const currentAnswers = (0, array_functions_js_1.shuffleArray)(currentQuestion.a);
-            // update checkbox labels
-            for (let i = 0; i < ANSWER_COUNT; ++i) {
-                this.checks.labels[i].textContent = currentAnswers[i].aT;
-                this.checks.boxes[i].name = currentAnswers[i].aNo.toString();
-                // textContent vs. innerText
-                // https://www.microfocus.com/documentation/silk-test/200/en/silktestworkbench-help-en/SILKTEST-21EEFF3F-DIFFERENCEBETWEENTEXTCONTENTSINNERTEXTINNERHTML-REF.html
-            }
-            // update question text
-            this.divs.question.innerHTML = `<h3>${currentQuestion.q}</h3>`;
-        }
-    }
-    evaluateAnswer() {
-        const currentQuestion = this.questions[this.shuffledIndices[this.counters.questions]];
-        const checked = [];
-        const outputArray = [];
-        let correct;
-        for (let i = 0; i < ANSWER_COUNT; ++i) {
-            if (this.checks.boxes[i].checked) {
-                checked.push(Number.parseInt(this.checks.boxes[i].name, 10));
-            }
-            this.checks.boxes[i].disabled = true;
-        }
-        correct = (0, array_functions_js_1.compareArrays)(currentQuestion.c, checked);
-        if (correct) {
-            outputArray.push("<b class='correct'>Richtig!</b>");
-            this.counters.correct++;
-        }
-        else {
-            outputArray.push("<b class='incorrect'>Falsch.</b> Richtig ist:<ul>");
-            for (let answer of currentQuestion.a) {
-                if (currentQuestion.c.includes(answer.aNo)) {
-                    outputArray.push(`<li>${answer.aT}</li>`);
-                }
-            }
-            outputArray.push("</ul>");
-            this.counters.incorrect++;
-        }
-        // write outcome to HTML
-        this.divs.evaluation.innerHTML = outputArray.join("");
-        // change buttons
-        // lock submit
-        // make next visible
-        this.buttons.submit.disabled = true;
-        this.buttons.next.disabled = false;
-        // increment question counter
-        this.counters.questions++;
-        this.updateProgress();
-    }
-    updateProgress() {
-        this.progress.bar.setAttribute("value", this.counters.correct.toString());
-        this.progress.bar.setAttribute("max", this.counters.questions.toString());
-        this.progress.label.textContent = `${this.counters.correct} richtig & ${this.counters.incorrect} falsch / ${this.counters.questions} insgesamt`;
-        // check question counter
-        if (this.counters.questions === this.totalAmountOfQuestions) {
-            this.buttons.next.textContent = "Abschluss";
-        }
-    }
-    prepareNextQuestion() {
-        this.buttons.submit.disabled = false;
-        this.buttons.next.disabled = true;
-        this.divs.evaluation.innerHTML = "";
-        // enable checkboxes
-        // remove checks
-        for (let i = 0; i < ANSWER_COUNT; ++i) {
-            this.checks.boxes[i].disabled = false;
-            this.checks.boxes[i].checked = false;
-        }
-        // check question counter again
-        if (this.counters.questions === this.totalAmountOfQuestions) {
-            this.showFinalResults();
-            return false;
-        }
-        else {
-            return true;
-        }
-    }
-    showFinalResults() {
-        this.sections.questionBlock.hidden = true;
-        this.sections.buttonBlock.hidden = true;
-        this.divs.evaluation.hidden = true;
-        this.divs.finalResults.hidden = false;
-        sessionStorage.clear();
-    }
-}
-exports.default = QuizPractice;
-
-},{"./array_functions.js":2}],2:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.shuffleArray = shuffleArray;
-exports.compareArrays = compareArrays;
-// functions, copied from the internet
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-// Randomize array in-place using Durstenfeld shuffle algorithm
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; --i) {
-        const j = Math.floor(Math.random() * (i + 1));
-        const temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-    return array;
-}
-// https://www.30secondsofcode.org/articles/s/javascript-array-comparison
-// compare two arrays, neglect order of elements (~set comparison)
-function compareArrays(a, b) {
-    if (a.length !== b.length)
-        return false;
-    const uniqueValues = new Set([...a, ...b]);
-    for (const v of uniqueValues) {
-        const aCount = a.filter(e => e === v).length;
-        const bCount = b.filter(e => e === v).length;
-        if (aCount !== bCount)
-            return false;
-    }
-    return true;
-}
-
-},{}],3:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const questions2026_json_1 = require("./questions2026.json");
-exports.default = questions2026_json_1.questions;
-
-},{"./questions2026.json":5}],4:[function(require,module,exports){
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const current_questions_js_1 = __importDefault(require("./current_questions.js"));
-const QuizPractice_js_1 = __importDefault(require("./QuizPractice.js"));
-const practice = new QuizPractice_js_1.default(current_questions_js_1.default);
-
-},{"./QuizPractice.js":1,"./current_questions.js":3}],5:[function(require,module,exports){
 module.exports={
     "questions": [
         {
@@ -2416,4 +2210,156 @@ module.exports={
     ]
 }
 
-},{}]},{},[4]);
+},{}],2:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const array_functions_js_1 = require("./array_functions.js");
+const ANSWER_COUNT = 4;
+class QuizExam {
+    constructor(questions) {
+        // properties
+        // https://stackoverflow.com/questions/12686927/how-to-assert-a-type-of-an-htmlelement-in-typescript
+        this.checkboxes = [];
+        this.checkboxLabels = [];
+        this.questions = [];
+        // constant properties
+        this.amountOfQuestionsDisplayed = 25;
+        // very first init things
+        this.sections = {
+            examAllQuestions: document.getElementById("exam_all_questions"),
+            evaluation: document.getElementById("exam_evaluation_block"),
+        };
+        this.buildQuestionsHTMLStructure();
+        this.shuffledQuestions = (0, array_functions_js_1.shuffleArray)(questions).slice(0, this.amountOfQuestionsDisplayed);
+        // init buttons
+        this.buttons = {
+            submit: document.getElementById("exam_submit"),
+        };
+        // event listeners for buttons
+        this.buttons.submit.addEventListener("click", () => this.evaluateAnswers());
+        this.buildQuestions();
+    }
+    buildQuestionsHTMLStructure() {
+        const outputArray = [];
+        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
+            outputArray.push(`
+                <div class="question" id="exam_Q${i}"></div>
+                <div class="answer" id="exam_A${i}">
+            `);
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                outputArray.push(`
+                    <input type="checkbox" id="Q${i}_A${j}">
+                    <label for="Q${i}_A${j}" id="Q${i}_A${j}_label"></label>
+                    <br />
+                `);
+            }
+            outputArray.push("</div>");
+        }
+        this.sections.examAllQuestions.innerHTML = outputArray.join("");
+    }
+    buildQuestions() {
+        // init questions, checkboxes and labels
+        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
+            this.questions[i] = document.getElementById(`exam_Q${i}`);
+            // create empty lists for further assignments
+            this.checkboxes[i] = [];
+            this.checkboxLabels[i] = [];
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                this.checkboxes[i][j] = document.getElementById(`Q${i}_A${j}`);
+                this.checkboxLabels[i][j] = document.getElementById(`Q${i}_A${j}_label`);
+            }
+        }
+        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
+            const currentQuestion = this.shuffledQuestions[i];
+            const currentAnswers = (0, array_functions_js_1.shuffleArray)(currentQuestion.a);
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                this.checkboxLabels[i][j].textContent = currentAnswers[j].aT;
+                this.checkboxes[i][j].name = currentAnswers[j].aNo.toString();
+            }
+            this.questions[i].innerHTML = `<h3>Frage ${i + 1}: ${currentQuestion.q}</h3>`;
+        }
+    }
+    evaluateAnswers() {
+        const booleanArray = [];
+        for (let i = 0; i < this.amountOfQuestionsDisplayed; ++i) {
+            const currentQuestion = this.shuffledQuestions[i];
+            const checked = [];
+            const correct = currentQuestion.c;
+            for (let j = 0; j < ANSWER_COUNT; ++j) {
+                const name = Number.parseInt(this.checkboxes[i][j].name, 10);
+                if (this.checkboxes[i][j].checked) {
+                    checked.push(name);
+                    // incorrectly checked
+                    if (!correct.includes(name)) {
+                        this.checkboxLabels[i][j].setAttribute("class", "incorrect_label");
+                    }
+                }
+                else if (correct.includes(name)) { // incorrectly not checked
+                    this.checkboxLabels[i][j].setAttribute("class", "incorrect_label");
+                }
+                this.checkboxes[i][j].disabled = true;
+            }
+            booleanArray.push((0, array_functions_js_1.compareArrays)(correct, checked));
+        }
+        this.buttons.submit.disabled = true;
+        const achievedPoints = booleanArray.reduce((sum, isCorrect) => sum + (isCorrect ? 1 : 0), 0);
+        this.sections.evaluation.innerHTML = `
+            <p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>
+            <p><b>Info:</b> Kästchen, deren Zustand nicht mit der Lösung übereinstimmt, haben
+            <span class="incorrect_label">rot</span>
+            markierten Text (rot ohne Kreuz: hätte angekreuzt werden müssen; rot mit Kreuz: hätte
+            nicht angekreuzt werden dürfen).</p>
+        `;
+    }
+}
+exports.default = QuizExam;
+
+},{"./array_functions.js":3}],3:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.shuffleArray = shuffleArray;
+exports.compareArrays = compareArrays;
+// functions, copied from the internet
+// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// Randomize array in-place using Durstenfeld shuffle algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; --i) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+// https://www.30secondsofcode.org/articles/s/javascript-array-comparison
+// compare two arrays, neglect order of elements (~set comparison)
+function compareArrays(a, b) {
+    if (a.length !== b.length)
+        return false;
+    const uniqueValues = new Set([...a, ...b]);
+    for (const v of uniqueValues) {
+        const aCount = a.filter(e => e === v).length;
+        const bCount = b.filter(e => e === v).length;
+        if (aCount !== bCount)
+            return false;
+    }
+    return true;
+}
+
+},{}],4:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const questions2026_json_1 = require("../data/questions2026.json");
+exports.default = questions2026_json_1.questions;
+
+},{"../data/questions2026.json":1}],5:[function(require,module,exports){
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const current_questions_js_1 = __importDefault(require("./current_questions.js"));
+const QuizExam_js_1 = __importDefault(require("./QuizExam.js"));
+const exam = new QuizExam_js_1.default(current_questions_js_1.default);
+
+},{"./QuizExam.js":2,"./current_questions.js":4}]},{},[5]);
