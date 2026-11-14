@@ -87,6 +87,7 @@ export default class QuizPractice {
         this.shuffledIndices = this.storage.shuffledIndices
             ? JSON.parse(this.storage.shuffledIndices)
             : shuffleArray([...new Array(this.totalAmountOfQuestions).keys()]);
+        sessionStorage.setItem("shuffledIndices", JSON.stringify(this.shuffledIndices));
 
         this.sections = {
             questionBlock: document.getElementById("practice_question_block")! as HTMLDivElement,
@@ -204,6 +205,9 @@ export default class QuizPractice {
 
         // increment question counter
         this.counters.questions++;
+        sessionStorage.setItem("countersQuestions", this.counters.questions.toString());
+        sessionStorage.setItem("countersCorrect", this.counters.correct.toString());
+        sessionStorage.setItem("countersIncorrect", this.counters.incorrect.toString());
         this.updateProgress();
     }
 
@@ -244,6 +248,9 @@ export default class QuizPractice {
         this.sections.buttonBlock.hidden = true;
         this.divs.evaluation.hidden = true;
         this.divs.finalResults.hidden = false;
-        sessionStorage.clear();
+        sessionStorage.removeItem("shuffledIndices");
+        sessionStorage.removeItem("countersQuestions");
+        sessionStorage.removeItem("countersCorrect");
+        sessionStorage.removeItem("countersIncorrect");
     }
 }
