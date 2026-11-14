@@ -72,13 +72,21 @@ export default class QuizPractice {
         };
 
         this.counters = {
-            questions: (this.storage.countersQuestions) ? Number.parseInt(this.storage.countersQuestions, 10) : 0,
-            correct: (this.storage.countersCorrect) ? Number.parseInt(this.storage.countersCorrect, 10) : 0,
-            incorrect: (this.storage.countersIncorrect) ? Number.parseInt(this.storage.countersIncorrect, 10) : 0,
+            questions: this.storage.countersQuestions
+                ? Number.parseInt(this.storage.countersQuestions, 10)
+                : 0,
+            correct: this.storage.countersCorrect
+                ? Number.parseInt(this.storage.countersCorrect, 10)
+                : 0,
+            incorrect: this.storage.countersIncorrect
+                ? Number.parseInt(this.storage.countersIncorrect, 10)
+                : 0,
         };
 
         // https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp
-        this.shuffledIndices = (this.storage.shuffledIndices) ? JSON.parse(this.storage.shuffledIndices) : shuffleArray([...new Array(this.totalAmountOfQuestions).keys()]);
+        this.shuffledIndices = this.storage.shuffledIndices
+            ? JSON.parse(this.storage.shuffledIndices)
+            : shuffleArray([...new Array(this.totalAmountOfQuestions).keys()]);
 
         this.sections = {
             questionBlock: document.getElementById("practice_question_block")! as HTMLDivElement,
@@ -104,7 +112,9 @@ export default class QuizPractice {
         // init checkboxes and their labels
         for (let i = 0; i < ANSWER_COUNT; ++i) {
             this.checks.boxes[i] = document.getElementById(`practice_A${i}`)! as HTMLInputElement;
-            this.checks.labels[i] = document.getElementById(`practice_A${i}_label`)! as HTMLLabelElement;
+            this.checks.labels[i] = document.getElementById(
+                `practice_A${i}_label`,
+            )! as HTMLLabelElement;
         }
 
         // init progress
@@ -129,7 +139,7 @@ export default class QuizPractice {
             outputArray.push(`
                 <input type="checkbox" id="practice_A${i}">
                 <label for="practice_A${i}" id="practice_A${i}_label"></label><br />
-            `)
+            `);
         }
 
         document.getElementById("practice_answer")!.innerHTML = outputArray.join("");
@@ -171,8 +181,7 @@ export default class QuizPractice {
         if (correct) {
             outputArray.push("<b class='correct'>Richtig!</b>");
             this.counters.correct++;
-        }
-        else {
+        } else {
             outputArray.push("<b class='incorrect'>Falsch.</b> Richtig ist:<ul>");
 
             for (let answer of currentQuestion.a) {
@@ -201,7 +210,7 @@ export default class QuizPractice {
     updateProgress(): void {
         this.progress.bar.setAttribute("value", this.counters.correct.toString());
         this.progress.bar.setAttribute("max", this.counters.questions.toString());
-        this.progress.label.textContent = `${this.counters.correct} richtig & ${this.counters.incorrect} falsch / ${this.counters.questions} insgesamt`
+        this.progress.label.textContent = `${this.counters.correct} richtig & ${this.counters.incorrect} falsch / ${this.counters.questions} insgesamt`;
 
         // check question counter
         if (this.counters.questions === this.totalAmountOfQuestions) {
@@ -225,8 +234,7 @@ export default class QuizPractice {
         if (this.counters.questions === this.totalAmountOfQuestions) {
             this.showFinalResults();
             return false;
-        }
-        else {
+        } else {
             return true;
         }
     }
@@ -236,6 +244,6 @@ export default class QuizPractice {
         this.sections.buttonBlock.hidden = true;
         this.divs.evaluation.hidden = true;
         this.divs.finalResults.hidden = false;
-        sessionStorage.clear()
+        sessionStorage.clear();
     }
 }

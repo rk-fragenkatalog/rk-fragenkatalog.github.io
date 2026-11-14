@@ -10,7 +10,7 @@ type buttonType = {
 type sectionType = {
     examAllQuestions: HTMLDivElement;
     evaluation: HTMLDivElement;
-}
+};
 
 const ANSWER_COUNT = 4;
 
@@ -32,7 +32,7 @@ export default class QuizExam {
         this.sections = {
             examAllQuestions: document.getElementById("exam_all_questions")! as HTMLDivElement,
             evaluation: document.getElementById("exam_evaluation_block")! as HTMLDivElement,
-        }
+        };
         this.buildQuestionsHTMLStructure();
         this.shuffledQuestions = shuffleArray(questions).slice(0, this.amountOfQuestionsDisplayed);
 
@@ -54,15 +54,15 @@ export default class QuizExam {
             outputArray.push(`
                 <div class="question" id="exam_Q${i}"></div>
                 <div class="answer" id="exam_A${i}">
-            `)
+            `);
             for (let j = 0; j < ANSWER_COUNT; ++j) {
                 outputArray.push(`
                     <input type="checkbox" id="Q${i}_A${j}">
                     <label for="Q${i}_A${j}" id="Q${i}_A${j}_label"></label>
                     <br />
-                `)
+                `);
             }
-            outputArray.push("</div>")
+            outputArray.push("</div>");
         }
         this.sections.examAllQuestions.innerHTML = outputArray.join("");
     }
@@ -78,7 +78,9 @@ export default class QuizExam {
 
             for (let j = 0; j < ANSWER_COUNT; ++j) {
                 this.checkboxes[i][j] = document.getElementById(`Q${i}_A${j}`)! as HTMLInputElement;
-                this.checkboxLabels[i][j] = document.getElementById(`Q${i}_A${j}_label`)! as HTMLLabelElement;
+                this.checkboxLabels[i][j] = document.getElementById(
+                    `Q${i}_A${j}_label`,
+                )! as HTMLLabelElement;
             }
         }
 
@@ -113,8 +115,8 @@ export default class QuizExam {
                     if (!correct.includes(name)) {
                         this.checkboxLabels[i][j].setAttribute("class", "incorrect_label");
                     }
-                }
-                else if (correct.includes(name)) { // incorrectly not checked
+                } else if (correct.includes(name)) {
+                    // incorrectly not checked
                     this.checkboxLabels[i][j].setAttribute("class", "incorrect_label");
                 }
 
@@ -125,7 +127,10 @@ export default class QuizExam {
         }
 
         this.buttons.submit.disabled = true;
-        const achievedPoints = booleanArray.reduce((sum, isCorrect) => sum + (isCorrect ? 1 : 0), 0);
+        const achievedPoints = booleanArray.reduce(
+            (sum, isCorrect) => sum + (isCorrect ? 1 : 0),
+            0,
+        );
 
         this.sections.evaluation.innerHTML = `
             <p><b>Erreichte Punkte:</b>\t${achievedPoints} / ${this.amountOfQuestionsDisplayed}</p>

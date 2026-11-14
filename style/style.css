@@ -2,8 +2,8 @@
 /* selector { property: value; } */
 
 body {
-    background-color: #B70E0C;
-    font-family: 'Conv_Dunant-Regular';
+    background-color: #b70e0c;
+    font-family: "Conv_Dunant-Regular";
     font-size: large;
     hyphens: auto;
     /* Silbentrennung */
@@ -70,7 +70,7 @@ button {
 }
 
 .incorrect {
-    color: #B70E0C;
+    color: #b70e0c;
 }
 
 input[type="checkbox"] {
@@ -78,7 +78,7 @@ input[type="checkbox"] {
     margin-top: 0.2em;
 }
 
-input[type="checkbox"]~label {
+input[type="checkbox"] ~ label {
     display: inline-block;
     padding-left: 2em;
     padding-right: 0.3em;
@@ -87,7 +87,7 @@ input[type="checkbox"]~label {
 
 /* https://stackoverflow.com/questions/2570972/css-font-border */
 .incorrect_label {
-    color: #B70E0C;
+    color: #b70e0c;
     font-weight: bold;
     /* background-color: #B70E0C;
     color: white;
@@ -131,13 +131,12 @@ li {
 }
 
 span {
-    color: #B70E0C;
+    color: #b70e0c;
 }
 
 #guide {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .grid_row1 {
@@ -155,7 +154,7 @@ span {
 }
 
 .grid {
-    background-color: #B70E0C;
+    background-color: #b70e0c;
     margin: 0.1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -165,7 +164,7 @@ span {
 }
 
 h2 {
-    color: #B70E0C;
+    color: #b70e0c;
 }
 
 .link_task {

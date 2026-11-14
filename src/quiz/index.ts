@@ -10,8 +10,7 @@ password_submit.addEventListener("click", () => {
     if (password_input.value.toLowerCase() === "rk") {
         articles.namedItem("article_password")!.hidden = true;
         articles.namedItem("article_start")!.hidden = false;
-    }
-    else {
+    } else {
         password_status.innerHTML = "<p>Falsches Passwort!</p>";
     }
 });

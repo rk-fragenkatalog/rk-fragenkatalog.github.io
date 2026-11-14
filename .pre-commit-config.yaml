@@ -1,0 +1,33 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+    - id: check-case-conflict
+    - id: check-illegal-windows-names
+    - id: check-merge-conflict
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: trailing-whitespace
+      args: [--markdown-linebreak-ext=md]
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.6
+    hooks:
+    - id: remove-crlf
+    - id: remove-tabs
+  - repo: https://gitlab.com/bmares/check-json5
+    rev: v1.0.1
+    hooks:
+    - id: check-json5
+  # Unfortunately, there is no official pre-commit hook for `prettier`.
+  # Use a local repo with language 'node' to automatically donwload
+  # Node.js and its dependency `prettier` to achieve the same as an
+  # official hook.
+  - repo: local
+    hooks:
+    - id: prettier
+      name: prettier
+      entry: prettier --write --ignore-unknown
+      language: node
+      types: [text]
+      additional_dependencies:
+      - prettier@3

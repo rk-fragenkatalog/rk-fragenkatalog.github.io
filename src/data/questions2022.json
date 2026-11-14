@@ -20,9 +20,7 @@
                     "aT": "112"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Die Notrufnummer vom Rettungsdienst lautet...",
@@ -44,9 +42,7 @@
                     "aT": "112"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Die Notrufnummer der Polizei lautet...",
@@ -68,9 +64,7 @@
                     "aT": "911"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Die Nummer des Euro-Notrufs lautet...",
@@ -92,9 +86,7 @@
                     "aT": "112"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Welche Angaben sind beim Wählen des Notrufs sinnvoll?",
@@ -116,10 +108,7 @@
                     "aT": "Body-Mass-Index"
                 }
             ],
-            "c": [
-                2,
-                3
-            ]
+            "c": [2, 3]
         },
         {
             "q": "Welche Nummer sollte bei einem medizinischen Notfall bevorzugt gerufen werden?",
@@ -141,9 +130,7 @@
                     "aT": "133"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Was soll man bei einem Notruf beachten?",
@@ -165,11 +152,7 @@
                     "aT": "Das Gespräch beendet die Leitstelle"
                 }
             ],
-            "c": [
-                1,
-                2,
-                4
-            ]
+            "c": [1, 2, 4]
         },
         {
             "q": "Welche Maßnahmen gehören zu den Basismaßnahmen?",
@@ -191,11 +174,7 @@
                     "aT": "Für frische Luft sorgen und bei Notwendigkeit beengende Kleidungsstücke öffnen"
                 }
             ],
-            "c": [
-                1,
-                3,
-                4
-            ]
+            "c": [1, 3, 4]
         },
         {
             "q": "Welche Aufgaben hat der/die Ersthelfer_in?",
@@ -217,10 +196,7 @@
                     "aT": "Retten von Verletzten aus allen Gefahrensituation"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Welche Maßnahmen ergreifen Sie, wenn eine Person reglos am Bauch liegt?",
@@ -242,11 +218,7 @@
                     "aT": "Wenn keine Reaktion: Person umdrehen"
                 }
             ],
-            "c": [
-                2,
-                3,
-                4
-            ]
+            "c": [2, 3, 4]
         },
         {
             "q": "Welche Rettungsmöglichkeiten aus einer Gefahrenzone hat der/die Ersthelfer_in?",
@@ -268,10 +240,7 @@
                     "aT": "Seiltechniken anwenden"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind beim Verdacht der Unterkühlung zu setzen?",
@@ -293,10 +262,7 @@
                     "aT": "Kopf-Tieflagerung um weiteres Absinken der Temperatur zu vermeiden"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Welches Material wird für den manuellen Druck benötigt?",
@@ -318,10 +284,7 @@
                     "aT": "Wunddesinfektion"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Wie versorgt man eine/n Verletzte/n mit einer stark blutenden Wunde an einer Extremität?",
@@ -343,10 +306,7 @@
                     "aT": "Notruf absetzen, verletzten Körperteil hochhalten"
                 }
             ],
-            "c": [
-                3,
-                4
-            ]
+            "c": [3, 4]
         },
         {
             "q": "Bei welcher Verletzung ist der manuelle Druck zur Blutstillung geeignet?",
@@ -368,9 +328,7 @@
                     "aT": "Bluterguss"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Was versteht man unter einer starken Blutung?",
@@ -392,11 +350,7 @@
                     "aT": "Wenn das Blut im Schwall austritt"
                 }
             ],
-            "c": [
-                1,
-                3,
-                4
-            ]
+            "c": [1, 3, 4]
         },
         {
             "q": "Welche Maßnahme ist vom Ersthelfer zu setzen, wenn es bei einer starken Blutung durch den Druckverband durchblutet?",
@@ -418,9 +372,7 @@
                     "aT": "Abbindung vornehmen"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Was sollte der/die Ersthelfer_in bei der Blutstillung vermeiden?",
@@ -442,9 +394,7 @@
                     "aT": "Wenn möglich: Verwendung von Mullbindenverbänden"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind beim Anlegen eines Druckverbandes durchzuführen?",
@@ -466,11 +416,7 @@
                     "aT": "Verletzte/r soll anfangs selbst fest auf die Wunde drücken"
                 }
             ],
-            "c": [
-                2,
-                3,
-                4
-            ]
+            "c": [2, 3, 4]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind beim Verschlucken (schwere Verlegung der Atemwege) durchzuführen?",
@@ -492,10 +438,7 @@
                     "aT": "Falls der/die Betroffene reglos wird, entspricht dies einem Atem-Kreislauf-Stillstand und es ist sofort mit der Wiederbelebung zu beginnen"
                 }
             ],
-            "c": [
-                2,
-                4
-            ]
+            "c": [2, 4]
         },
         {
             "q": "Wie lautet die Erste-Hilfe-Maßnahme, die mit saugendem Material mit den Fingern, dem Handballen oder der Faust mit Druck auf die stark blutende Wunde ausgeübt wird?",
@@ -517,9 +460,7 @@
                     "aT": "Druckverband"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Welche Lagerung wird bei einer starken Blutung empfohlen (z.B. Kreissägenverletzung am Unterarm)?",
@@ -541,9 +482,7 @@
                     "aT": "Lagerung ohne Veränderung der Körperhaltung"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einer starken Blutung am Unterschenkel durchzuführen?",
@@ -565,10 +504,7 @@
                     "aT": "Manuellen Druck durchführen oder Druckverband anlegen; Beine hochlagern"
                 }
             ],
-            "c": [
-                1,
-                4
-            ]
+            "c": [1, 4]
         },
         {
             "q": "Wie wird die Mund-zu-Mund-Beatmung im Rahmen der Ersten Hilfe durchgeführt?",
@@ -590,10 +526,7 @@
                     "aT": "Notfallbeatmungstuch über den Mund der erkrankten Person legen, Kopf nackenwärts überstrecken, Nase zuhalten und 2 Mal beatmen"
                 }
             ],
-            "c": [
-                2,
-                4
-            ]
+            "c": [2, 4]
         },
         {
             "q": "Wie wird das Bewusstsein überprüft?",
@@ -615,9 +548,7 @@
                     "aT": "Schmerzreiz am Handrücken durchführen"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Welche Lagerung wird bei einer reglosen Person mit normaler Atmung durchgeführt?",
@@ -639,9 +570,7 @@
                     "aT": "Stabile Seitenlage"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Wie soll ein/e Ersthelfer_in weiter vorgehen, wenn festgestellt wird, dass die reglose Person atmet, die Atmung aber nicht normal ist?",
@@ -663,9 +592,7 @@
                     "aT": "Erkrankten 2-mal beatmen"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Welche Schritte sind als nächstes durchzuführen, wenn der/die Verletzte auf lautes Ansprechen und sanftes Schütteln nicht reagiert?",
@@ -687,9 +614,7 @@
                     "aT": "Hilferuf, Atemwege freimachen, Atmung kontrollieren"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Wie wird die stabile Seitenlage korrekt durchgeführt?",
@@ -711,9 +636,7 @@
                     "aT": "Beide Arme zur Seite legen, gegenüberliegendes Knie hochziehen und herdrehen"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Welche Erste-Hilfe-Ausrüstung kann Ersthelfer_innen vor Infektionen schützen?",
@@ -735,10 +658,7 @@
                     "aT": "Rettungsdecke"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Wie gehen Sie bei der Wiederbelebung einer erwachsenen Person als trainierte/r Ersthelfer_in vor?",
@@ -760,9 +680,7 @@
                     "aT": "30 Herzdruckmassagen / 2 Beatmungen"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Wann spricht man von einer reglosen Person?",
@@ -784,9 +702,7 @@
                     "aT": "Bewusstseinslage kann durch den Ersthelfer nicht überprüft werden"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Was bedeutet die Abkürzung „AED“?",
@@ -808,9 +724,7 @@
                     "aT": "Automatisierter - Elektrischer- Druck"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Welche Aussagen treffen bei einer reglosen Person zu?",
@@ -832,11 +746,7 @@
                     "aT": "Falls keine normale Atmung feststellbar, mit Wiederbelebung starten"
                 }
             ],
-            "c": [
-                1,
-                2,
-                4
-            ]
+            "c": [1, 2, 4]
         },
         {
             "q": "In welchem Alter darf von Ersthelfer_innen ein Defibrillator verwendet werden?",
@@ -858,9 +768,7 @@
                     "aT": "In jedem Alter"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Was bedeutet „defibrillieren“?",
@@ -882,9 +790,7 @@
                     "aT": "reanimieren"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind durchzuführen, sobald der/die Erkrankte in die stabile Seitenlage gebracht wurde?",
@@ -906,10 +812,7 @@
                     "aT": "Sofort mit Herzdruckmassage und Beatmung beginnen"
                 }
             ],
-            "c": [
-                2,
-                3
-            ]
+            "c": [2, 3]
         },
         {
             "q": "Welche Aussagen treffen bezüglich Defibrillation zu?",
@@ -931,10 +834,7 @@
                     "aT": "Die rechtliche Situation besagt, dass die Defibrillation in einer Notsituation unbedenklich ist"
                 }
             ],
-            "c": [
-                1,
-                4
-            ]
+            "c": [1, 4]
         },
         {
             "q": "Welche Maßnahmen führen Sie bei einer reglosen Person mit normaler Atmung durch?",
@@ -956,9 +856,7 @@
                     "aT": "Erhöhter Oberkörper für die Entlastung des Herzens"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Was soll ein/e Ersthelfer_in bei der Defibrillation beachten?",
@@ -980,11 +878,7 @@
                     "aT": "Während Schockabgabe die zu defibrillierende Person berühren (Qualitätskontrolle)"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3
-            ]
+            "c": [1, 2, 3]
         },
         {
             "q": "Welche Handgriffe führen Sie vor einer Mund-zu-Mund-Beatmung durch?",
@@ -1006,10 +900,7 @@
                     "aT": "Stabile Seitenlage"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Wenn ein/e Erwachsene/r nicht ansprechbar ist und nicht normal atmet, rufen Sie den Rettungsdienst und...",
@@ -1031,9 +922,7 @@
                     "aT": "Versuchen eine Lagerung mit erhöhten Beinen"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Aus welchen Schritten besteht der Notfallcheck?",
@@ -1055,11 +944,7 @@
                     "aT": "Atemkontrolle nicht länger als 10 Sekunden durchführen"
                 }
             ],
-            "c": [
-                1,
-                3,
-                4
-            ]
+            "c": [1, 3, 4]
         },
         {
             "q": "Welche Aussagen zur Herzdruckmassage im Rahmen der Ersten Hilfe sind korrekt?",
@@ -1081,12 +966,7 @@
                     "aT": "Auf die Mitte des Brustkorbes schnell und kräftig drücken"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3,
-                4
-            ]
+            "c": [1, 2, 3, 4]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Atem-Kreislauf-Stillstand durchzuführen?",
@@ -1108,10 +988,7 @@
                     "aT": "Notruf absetzen und sofort Herzdruckmassagen und Beatmungen (30:2) durchführen"
                 }
             ],
-            "c": [
-                2,
-                4
-            ]
+            "c": [2, 4]
         },
         {
             "q": "Welche Vorgehensweise ist bei der Anwendung eines Defibrillators korrekt?",
@@ -1133,9 +1010,7 @@
                     "aT": "Solange eine Beatmung durchgeführt wird: keine Elektroden aufkleben"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Womit sichert ein/e Ersthelfer_in bei einem Verkehrsunfall ab?",
@@ -1157,10 +1032,7 @@
                     "aT": "Blaulicht"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Wann muss ein Warndreieck auf Freilandstraßen aufgestellt werden?",
@@ -1182,10 +1054,7 @@
                     "aT": "Wenn noch kein Notruf abgesetzt wurde"
                 }
             ],
-            "c": [
-                2,
-                3
-            ]
+            "c": [2, 3]
         },
         {
             "q": "Warum muss der Helm abgenommen werden, wenn der/die Verletzte nicht reagiert?",
@@ -1207,10 +1076,7 @@
                     "aT": "Um die Atmung zu überprüfen"
                 }
             ],
-            "c": [
-                3,
-                4
-            ]
+            "c": [3, 4]
         },
         {
             "q": "Welche Schritte gehören zum Rautekgriff beim Retten aus einem PKW?",
@@ -1232,10 +1098,7 @@
                     "aT": "Deaktivierung der Airbags, falls diese nicht ausgelöst haben"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Wie verhalten Sie sich bei einem Verkehrsunfall mit einer reglosen Person im Fahrzeug?",
@@ -1257,11 +1120,7 @@
                     "aT": "In ausreichendem Abstand absichern"
                 }
             ],
-            "c": [
-                2,
-                3,
-                4
-            ]
+            "c": [2, 3, 4]
         },
         {
             "q": "Die GAMS-Regel erläutert dem Ersthelfer richtiges Verhalten bei Gefahr. „G“ steht für Gefahr erkennen, „A“ für Abstand halten, „S“ steht für Spezialkräfte anfordern und „M“ für?",
@@ -1283,9 +1142,7 @@
                     "aT": "Mund öffnen (stabile Seitenlage)"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Welchen Grundsatz soll jede/r Ersthelfer_in in einer Gefahrenzone beachten?",
@@ -1307,9 +1164,7 @@
                     "aT": "Dem/der Mutigen gehört die Welt"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Wann und wozu schalten Sie die Warnblinkanlage ein?",
@@ -1331,11 +1186,7 @@
                     "aT": "Wenn Sie vor Gefahren warnen wollen"
                 }
             ],
-            "c": [
-                1,
-                3,
-                4
-            ]
+            "c": [1, 3, 4]
         },
         {
             "q": "Durch starke Sonnenbestrahlung kann es zu Kopfschmerzen, Übelkeit, Erbrechen, Bewusstseinsstörungen, Krämpfen etc. kommen. Mit welchen Notfällen ist zu rechnen?",
@@ -1357,9 +1208,7 @@
                     "aT": "Nasenbluten"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Krampfanfall korrekt?",
@@ -1381,11 +1230,7 @@
                     "aT": "Wenn Erkrankte/r nach dem Krampf ansprechbar ist: Seitenlagerung empfohlen"
                 }
             ],
-            "c": [
-                2,
-                3,
-                4
-            ]
+            "c": [2, 3, 4]
         },
         {
             "q": "Welche Anzeichen können auf einen Schlaganfall deuten?",
@@ -1407,10 +1252,7 @@
                     "aT": "Erkrankte/r kann keinen einfachen Satz nachsprechen"
                 }
             ],
-            "c": [
-                1,
-                4
-            ]
+            "c": [1, 4]
         },
         {
             "q": "Bei welchen Erkrankungen wird eine Lagerung mit erhöhtem Oberkörper empfohlen?",
@@ -1432,12 +1274,7 @@
                     "aT": "Asthmaanfall"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3,
-                4
-            ]
+            "c": [1, 2, 3, 4]
         },
         {
             "q": "Bei welchen Notfällen ist eine Seitenlage sinnvoll?",
@@ -1459,10 +1296,7 @@
                     "aT": "Bei verstauchtem Knöchel"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Welche Gefahren bestehen bei einem Stich, z. B. von einer Biene?",
@@ -1484,11 +1318,7 @@
                     "aT": "Unterzuckerung"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3
-            ]
+            "c": [1, 2, 3]
         },
         {
             "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei einem Schlaganfall zu setzen?",
@@ -1510,11 +1340,7 @@
                     "aT": "Die betroffene Körperregion möglichst hochhalten"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3
-            ]
+            "c": [1, 2, 3]
         },
         {
             "q": "Was können Anzeichen für einen Herzinfarkt sein?",
@@ -1536,11 +1362,7 @@
                     "aT": "Angst, Atemnot"
                 }
             ],
-            "c": [
-                2,
-                3,
-                4
-            ]
+            "c": [2, 3, 4]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einer Vergiftung durchzuführen, wenn das Gift bekannt ist und der/die Betroffene ansprechbar ist und normal reagiert?",
@@ -1562,10 +1384,7 @@
                     "aT": "Seitenlage durchführen"
                 }
             ],
-            "c": [
-                1,
-                4
-            ]
+            "c": [1, 4]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Verdacht eines Herzinfarkts zu setzen?",
@@ -1587,10 +1406,7 @@
                     "aT": "Falls nach 1 Stunde keine Besserung: Hausarzt aufsuchen"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Durch körperliche Anstrengung in heißer oder feuchtwarmer Umgebung kann es zu einem Wärmestau und zu einer Erhöhung der Körpertemperatur kommen. Wie nennt man dieses Krankheitsbild?",
@@ -1612,9 +1428,7 @@
                     "aT": "Hyperventilation"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Bei welchem Notfall muss nicht immer sofort der Rettungsdienst verständigt werden?",
@@ -1636,9 +1450,7 @@
                     "aT": "Kollaps"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Welche Aussagen treffen bei einer Vergiftung zu?",
@@ -1660,9 +1472,7 @@
                     "aT": "Nur feste Stoffe können Vergiftungen hervorrufen"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Welche typischen Warnzeichen weisen auf einen Schlaganfall hin?",
@@ -1684,11 +1494,7 @@
                     "aT": "Schnelle Atmung (hyperventilieren)"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3
-            ]
+            "c": [1, 2, 3]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind bei einem Asthmaanfall zu setzen?",
@@ -1710,10 +1516,7 @@
                     "aT": "Kühlung der Atemwege, z. B. mit Eiswürfeln von innen und von außen"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind nach einer Vergiftung durchzuführen? Die Person ist nicht ansprechbar.",
@@ -1735,9 +1538,7 @@
                     "aT": "Bei Tabletten in den Atemwegen: Heimlich-Manöver im Liegen durchführen"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Welche Erste-Hilfe-Maßnahmen sind beim Verdacht der Blutzuckerentgleisung bei einem Diabetiker zu setzen?",
@@ -1759,11 +1560,7 @@
                     "aT": "Notruf absetzen"
                 }
             ],
-            "c": [
-                1,
-                3,
-                4
-            ]
+            "c": [1, 3, 4]
         },
         {
             "q": "Bei welchen Notfällen wird eine Lagerung mit erhöhtem Oberkörper empfohlen?",
@@ -1785,10 +1582,7 @@
                     "aT": "Kollaps"
                 }
             ],
-            "c": [
-                1,
-                2
-            ]
+            "c": [1, 2]
         },
         {
             "q": "Bei Verdacht auf Schlaganfall wendet der/die Ersthelfer_in den FAST-Test an. F steht für Face (Gesicht), S steht für Speech (Sprache), T steht für Time (Zeit). Wofür steht das „A“ bei FAST?",
@@ -1810,9 +1604,7 @@
                     "aT": "Azidose (Übersäuerung)"
                 }
             ],
-            "c": [
-                2
-            ]
+            "c": [2]
         },
         {
             "q": "Was sind Erste-Hilfe-Maßnahmen bei einem Kollaps?",
@@ -1834,10 +1626,7 @@
                     "aT": "Eis zum Lutschen verabreichen"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Wie lautet die Telefonnummer der Vergiftungsinformationszentrale (VIZ)?",
@@ -1859,9 +1648,7 @@
                     "aT": "01/406 43 43"
                 }
             ],
-            "c": [
-                4
-            ]
+            "c": [4]
         },
         {
             "q": "Etwa wieviel Prozent der Unfälle passieren zu Hause/in der Freizeit/beim Sport?",
@@ -1883,9 +1670,7 @@
                     "aT": "95"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Welche Maßnahmen sind nach einer Bissverletzung (Haustier) zu setzen?",
@@ -1907,9 +1692,7 @@
                     "aT": "Wunde mit erträglich heißem Seifenwasser spülen und verbinden"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Welche der angeführten Erste-Hilfe-Maßnahmen sind bei Nasenbluten zu setzen?",
@@ -1931,10 +1714,7 @@
                     "aT": "Zuckerhaltige Getränke verabreichen"
                 }
             ],
-            "c": [
-                1,
-                3
-            ]
+            "c": [1, 3]
         },
         {
             "q": "Welche Aussagen treffen bei Verbrennungen zu?",
@@ -1956,9 +1736,7 @@
                     "aT": "Verbrennungen werden nicht gespült, sondern nur locker und steril verbunden"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Wie sind Augenverätzungen zu versorgen?",
@@ -1980,9 +1758,7 @@
                     "aT": "Nach dem Spülen des verätzten Auges über beide Augen einen Verband anlegen"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Welche Lagerung wird bei einer Kopfverletzung empfohlen?",
@@ -2004,9 +1780,7 @@
                     "aT": "Keine spezielle Lagerung"
                 }
             ],
-            "c": [
-                3
-            ]
+            "c": [3]
         },
         {
             "q": "Was machen Sie, wenn ein/e verletzte/r Motorradfahrer_in außerhalb einer Gefahrenzone auf dem Bauch liegt und nicht reagiert?",
@@ -2028,9 +1802,7 @@
                     "aT": "Stabile Seitenlage mit Helm durchführen"
                 }
             ],
-            "c": [
-                1
-            ]
+            "c": [1]
         },
         {
             "q": "Was können Hinweise auf eine Knochen-/ Gelenkverletzung sein?",
@@ -2052,11 +1824,7 @@
                     "aT": "Große Beweglichkeit"
                 }
             ],
-            "c": [
-                1,
-                2,
-                3
-            ]
+            "c": [1, 2, 3]
         },
         {
             "q": "Wann kann es bei einer Knochen-/ Gelenkverletzung sinnvoll sein, den Notruf zu wählen?",
@@ -2078,10 +1846,7 @@
                     "aT": "Bei einer Verletzung der Hüfte oder des Oberarms"
                 }
             ],
-            "c": [
-                3,
-                4
-            ]
+            "c": [3, 4]
         },
         {
             "q": "Wie kann ich bei einer Knochen-/ Gelenkverletzung Erste Hilfe leisten?",
@@ -2103,10 +1868,7 @@
                     "aT": "Generell gilt: Ruhigstellen – kühlen – Beengendes entfernen/lockern"
                 }
             ],
-            "c": [
-                2,
-                4
-            ]
+            "c": [2, 4]
         }
     ]
 }
