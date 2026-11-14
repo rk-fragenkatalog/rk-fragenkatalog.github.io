@@ -1,3 +1,3 @@
-import { questions } from "./questions2025.json";
+import { questions } from "./questions2026.json";
 
 export default questions;
