@@ -6,7 +6,6 @@ body {
     font-family: "Conv_Dunant-Regular";
     font-size: large;
     hyphens: auto;
-    /* Silbentrennung */
 }
 
 /* hide flex containers */
@@ -16,6 +15,12 @@ body {
 
 h1 {
     font-size: xx-large;
+    hyphens: auto;
+}
+
+h2 {
+    color: #b70e0c;
+    hyphens: auto;
 }
 
 /* https://www.w3schools.com/css/css_boxmodel.asp */
@@ -161,10 +166,6 @@ span {
     border-radius: 2vw;
     text-align: center;
     color: white;
-}
-
-h2 {
-    color: #b70e0c;
 }
 
 .link_task {
